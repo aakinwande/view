@@ -1,0 +1,176 @@
+.marketing-header{
+    text-align: center;
+}
+
+.marketing-desc{
+    text-align: center;
+}
+.box {
+    width: calc(25% - 20px); /* Four boxes per row with a little spacing */
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+   
+  }
+  .box:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add box shadow on hover */
+  }
+
+  .gtext{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  .box h4 {
+    margin: 0;
+  }
+
+  
+  @media (max-width: 576px) {
+      .background-image-marketing {
+          background-image: url('../../images/pages/market.jpg'); /* Replace with your image path */
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          height: 100vh; /* Adjust as needed */
+      }
+  
+
+      .marketing-header{
+        padding: 20px;
+        color: rgb(20, 20, 58);
+        font-size: 30px;
+        
+    }
+
+    .box {
+        width: calc(50% - 20px); /* Two boxes per row with a little spacing */
+      }
+
+      .gtext{
+        font-size: 13px;
+        }
+      h1{
+        font-size: 40px;
+      margin: 0.25rem; 
+    padding-top: 0.75rem;
+    font-weight: bold;;
+    margin: 20px;
+    
+      }
+  
+      .hero-desc{
+        margin: 22px;
+      }
+  
+  
+      .btn-1,
+      .btn-2 {
+        padding: 25px 20px;
+        max-width: none;
+        border-radius: 4px;
+        margin-top: 20px;
+        flex-direction: column;
+        margin: 1px;
+        flex-direction: row;
+      }
+      
+      .partners{
+          text-align: center;
+          padding: 30px 20px 30px 20px;
+          
+      }
+      
+      .partners-img{
+              flex-direction: row;
+              align-items: center;
+              display: flex;
+              justify-content: center;
+      
+      }
+      .partners-img img {
+          max-width: 23%;
+          margin: 5px;
+      }
+  }
+  
+  
+  @media (min-width: 900px) {
+    .background-image-marketing {
+        background-image: url('../../images/pages/market.jpg'); /* Replace with your image path */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 130vh; /* Adjust as needed */
+    }
+  
+
+    .marketing-header{
+        padding: 20px;
+        color: rgb(20, 20, 58);
+        font-size: 40px;
+    }
+
+    .box {
+        margin-left: 80px;
+        width: calc(40%); /* Four boxes per row with a little spacing */
+      }
+
+      .gtext{
+        font-size: 15px;
+        }
+
+    .marketing-desc{
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .btn-text {
+    font-weight: bold;
+    }
+    h1{
+      font-size: 65px;
+      color: rgb(20, 20, 58);
+      margin: 30px;   
+      padding-top:5px;
+      text-align: start;
+      width: 55%;
+      font-weight: bold;
+    }
+  
+    .hero-desc{
+      margin: 30px;
+    }
+  
+    .btn-1,
+    .btn-2 {
+      flex-direction: row;
+      margin-left: 30px;
+      padding: 25px 25px;
+  
+    }
+    
+    .partners{
+      text-align: center;
+          padding: 30px 20px 30px 20px;
+          font-size: 20px;
+        
+    }
+    
+    .partners-img{
+      flex-direction: row;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+  
+  }
+  .partners-img img {
+  max-width: 20%;
+  padding-left: 22px;
+  padding-right: 60px;
+  margin: 5px;
+  }
+  }
+  

@@ -1,0 +1,549 @@
+/* Navbar */
+.navbar {
+  margin-bottom: 30px;
+}
+.navbar-container{
+  color: rgb(41, 41, 98);
+  font-weight: bold;
+}
+.navbar-items{
+  color: rgb(41, 41, 98);
+}
+/* Logo Styling */
+.navbar-brand img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+/* Social Icons */
+.nav-link-with-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Horizontally center the content */
+  width: 60px; /* Adjust the width and height for your circular link */
+  height: 60px;
+  border-radius: 50%;
+  margin-left: 15px;
+  background-color: rgb(41, 41, 98);
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.social-icon {
+  font-size: 30px; /* Adjust the font size for your icon */
+}
+
+
+.nav-link-with-bg:hover {
+  background-color: #4267b2; 
+}
+
+
+.close-icon {
+  display: none;
+  font-size: 24px;
+  margin-left: 10px;
+  color: red; /* Set the color to red */
+}
+
+.navbar-toggler-custom.active .navbar-toggler-icon {
+  display: none;
+}
+
+.navbar-toggler-custom.active .close-icon {
+  display: block;
+}
+
+.services-dropdown-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.service-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+
+/* Adjustments for Mobile Devices */
+@media (max-width: 280px) {
+  .navbar {
+    margin-bottom: 10px;
+    margin-right: 3px;
+  }
+  .navbar-brand img {
+    max-width: 50%;
+  }
+  
+  .navbar-expand-lg .navbar-toggler {
+    color: white;
+    border-color: white;
+  }
+
+  .navbar-brand img {
+    width: 300px;
+  }
+  .navbar-items{
+    font-size: 20px;
+  }
+  .navbar-container{
+    background-image: url('../../images/pages/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top -6px;
+    background-attachment: scroll;
+    height: 80px; 
+    display: flex;
+    justify-content: space-between; 
+    font-size: 2.2rem;
+    position: sticky; 
+    top: 0; 
+    z-index: 100; 
+  }
+
+  .all-navbar{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 10px;
+    background-color: rgb(41, 41, 98);
+    margin-top: -13px;
+  }
+
+  .navbar-items{
+    margin-left: 80px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    
+  }
+  
+
+  /* .nav-link-with-bg { 
+    width: 80px; 
+    height: 80px;
+    display: flex; 
+    flex-direction: column;
+  }  */
+  
+.close-icon {
+  display: none;
+  font-size: 34px;
+  font-weight: bold;
+  margin-right: 20px;
+  color: red; 
+  text-align: center;/* Set the color to red */
+}
+
+.services-dropdown-content {
+  background-color: rgb(41, 41, 98);
+  width: 600;
+  height: 340px;
+  position: absolute;
+  margin-top: -7px;
+  margin-left: -260px;
+   }
+ 
+   .service-drophead{
+     color: rgb(76, 157, 197);
+     font-weight: bold;
+     margin: 20px;
+   }
+ 
+   .service-dropdetails{
+     margin-left: 20px;
+     color: white;
+   }
+ 
+   .service-dropdetails:hover{
+     color: rgb(76, 157, 197);
+     background-color: transparent
+   }
+}
+
+@media (min-width:350px) and (max-width: 480px) {
+  .navbar {
+    margin-bottom: -1px;
+  
+  }
+
+
+  .navbar-brand img {
+    width: 300px;
+  }
+  .navbar-items{
+    font-size: 20px;
+  }
+  .navbar-container{
+    background-image: url('../../images/pages/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top -6px;
+    background-attachment: scroll;
+    height: 80px; 
+    display: flex;
+    justify-content: space-between; 
+    font-size: 2.2rem;
+    position: sticky; 
+    top: 0; 
+    z-index: 100; 
+  }
+
+  .all-navbar{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 10px;
+    background-color: rgb(41, 41, 98);
+    margin-top: -13px;
+  }
+
+  .navbar-items{
+    margin-left: 150px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    
+  }
+  
+
+  /* .nav-link-with-bg { 
+    width: 80px; 
+    height: 80px;
+    display: flex; 
+    flex-direction: column;
+  }  */
+  
+.close-icon {
+  display: none;
+  font-size: 34px;
+  font-weight: bold;
+  margin-right: 20px;
+  color: red; 
+  text-align: center;/* Set the color to red */
+}
+
+.services-dropdown-content {
+  background-color: rgb(41, 41, 98);
+  width: 600;
+  height: 340px;
+  position: absolute;
+  margin-top: -7px;
+  margin-left: -260px;
+   }
+ 
+   .service-drophead{
+     color: rgb(76, 157, 197);
+     font-weight: bold;
+     margin: 20px;
+   }
+ 
+   .service-dropdetails{
+     margin-left: 20px;
+     color: white;
+   }
+ 
+   .service-dropdetails:hover{
+     color: rgb(76, 157, 197);
+     background-color: transparent
+   }
+}
+
+@media (min-width:481px) and (max-width: 767px) {
+  .navbar {
+    margin-bottom: -2px;
+  }   
+
+  .navbar-brand img {
+    width: 300px;
+  }
+  .navbar-items{
+    font-size: 20px;
+  }
+  .navbar-container{
+    background-image: url('../../images/pages/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top -6px;
+    background-attachment: scroll;
+    height: 80px; 
+    display: flex;
+    justify-content: space-between; 
+    font-size: 2.2rem;
+    position: sticky; 
+    top: 0; 
+    z-index: 100; 
+  }
+
+  .all-navbar{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 10px;
+    background-color: rgb(41, 41, 98);
+  }
+
+  .navbar-items{
+    margin-left: 200px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    
+  }
+  
+
+  /* .nav-link-with-bg { 
+    width: 80px; 
+    height: 80px;
+    display: flex; 
+    flex-direction: column;
+  }  */
+  
+.close-icon {
+  display: none;
+  font-size: 34px;
+  font-weight: bold;
+  margin-right: 20px;
+  color: red; 
+  text-align: center;/* Set the color to red */
+}
+  .services-dropdown-content {
+ background-color: rgb(41, 41, 98);
+ width: 600;
+ height: 340px;
+ position: absolute;
+ margin-top: -7px;
+ margin-left: -260px;
+  }
+
+  .service-drophead{
+    color: rgb(76, 157, 197);
+    font-weight: bold;
+    margin: 20px;
+  }
+
+  .service-dropdetails{
+    margin-left: 20px;
+    color: white;
+  }
+
+  .service-dropdetails:hover{
+    color: rgb(76, 157, 197);
+    background-color: transparent
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .navbar {
+    margin-bottom: -2px;
+  
+  }  
+  .navbar {
+    margin-bottom: -2px;
+  
+  }   
+  .navbar-brand img {
+    width: 300px;
+  }
+  .navbar-items{
+    font-size: 20px;
+  }
+  .navbar-container{
+    background-image: url('../../images/pages/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top -6px;
+    background-attachment: scroll;
+    height: 80px; 
+    display: flex;
+    justify-content: space-between; 
+    font-size: 2.2rem;
+    position: sticky; 
+    top: 0; 
+    z-index: 100; 
+  }
+
+  .all-navbar{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 10px;
+    background-color: rgb(41, 41, 98);
+    margin-top: -13px;
+  }
+
+  .navbar-items{
+    margin-left: 430px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+  }
+
+  .nav-link-with-bg { /* Horizontally center the content */
+    width: 40px; /* Adjust the width and height for your circular link */
+    height: 40px;
+  } 
+  .services-dropdown-content {
+    background-color: rgb(41, 41, 98);
+    width: 600;
+    height: 340px;
+    position: absolute;
+    margin-top: -7px;
+    margin-left: -220px;
+     }
+   
+     .service-drophead{
+       color: rgb(76, 157, 197);
+       font-weight: bold;
+       margin: 20px;
+     }
+   
+     .service-dropdetails{
+       margin-left: 20px;
+       color: white;
+     }
+   
+     .service-dropdetails:hover{
+       color: rgb(76, 157, 197);
+       background-color: transparent
+     }
+  
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .navbar {
+    margin-bottom: -2px;
+  
+  }   
+  .navbar-brand img {
+    width: 340px;
+    margin-left: 10px;
+  }
+  .navbar-items{
+    font-size: 16px;
+  }
+  .navbar-container{
+    background-image: url('../../images/pages/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top -10px;
+    background-attachment: scroll;
+    height: 90px; 
+    display: flex;
+    justify-content: space-between; 
+    font-size: 2.2rem;
+    position: sticky; 
+    top: 0; 
+    z-index: 100; 
+  }
+
+  .all-navbar{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 35px;
+  }
+
+  .navbar-items{
+    margin-left: 30px;
+  }
+
+  .nav-link-with-bg { 
+    width: 40px; 
+    height: 40px;
+  } 
+  .services-dropdown-content {
+ background-color: rgb(41, 41, 98);
+ width: 600;
+ height: 340px;
+ position: absolute;
+ margin-top: -7px;
+ margin-left: -260px;
+  }
+
+  .service-drophead{
+    color: rgb(76, 157, 197);
+    font-weight: bold;
+    margin: 20px;
+  }
+
+  .service-dropdetails{
+    margin-left: 20px;
+    color: white;
+  }
+
+  .service-dropdetails:hover{
+    color: rgb(76, 157, 197);
+    background-color: transparent
+  }
+  
+}
+
+@media screen and  (min-width: 1281px) {
+  .navbar {
+    margin-bottom: -2px;
+  
+  }   
+  .navbar-brand img {
+    width: 400px;
+  }
+  .navbar-items{
+    font-size: 20px;
+  }
+  .navbar-container{
+    background-image: url('../../images/pages/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top -6px;
+    background-attachment: scroll;
+    height: 80px; 
+    display: flex;
+    justify-content: space-between; 
+    font-size: 2.2rem;
+    position: sticky; 
+    top: 0; 
+    z-index: 100; 
+  }
+
+  .all-navbar{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 20px;
+  }
+
+  .navbar-items{
+    margin-left: 30px;
+  }
+
+  .nav-link-with-bg { /* Horizontally center the content */
+    width: 40px; /* Adjust the width and height for your circular link */
+    height: 40px;
+  }
+
+  .services-dropdown-content {
+    background-color: rgb(41, 41, 98);
+    width: 600;
+    height: 340px;
+    position: absolute;
+    margin-top: -7px;
+    margin-left: -260px;
+     }
+   
+     .service-drophead{
+       color: rgb(76, 157, 197);
+       font-weight: bold;
+       margin: 20px;
+     }
+   
+     .service-dropdetails{
+       margin-left: 20px;
+       color: white;
+     }
+   
+     .service-dropdetails:hover{
+       color: rgb(76, 157, 197);
+       background-color: transparent
+     }
+}

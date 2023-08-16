@@ -1,0 +1,151 @@
+.newsletter {
+    background-color: rgb(76, 157, 197); /* Set the background color */
+    padding: 40px; /* Add padding around the content */
+    text-align: center; /* Center the content horizontally */
+}
+
+.newsletter-text {
+    font-size: 20px;
+    text-align: center;
+}
+
+.newsletter-btn{
+    background-color: rgb(20, 20, 58);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  .newsletter-btn:hover{
+    background-color: red;
+    color: #fff;
+  }
+
+
+  @media (max-width: 280px) {
+    .newsletter-header{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        font-size: 30px;
+
+    }
+    .newsletter-text {
+        padding-bottom: 20px;
+        font-size: 15px;
+    }
+    .newsletter-btn {
+        /* Adjust the styles for larger screens */
+        padding: 15px 30px;
+        font-size: 20px;
+      }
+    
+  }
+  
+  @media (min-width:350px) and (max-width: 480px) {
+    .newsletter-header{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        font-size: 40px;
+
+    }
+    .newsletter-text {
+        padding-bottom: 28px;
+        font-size: 15px;
+    }
+    .newsletter-btn {
+        /* Adjust the styles for larger screens */
+        padding: 15px 30px;
+        font-size: 20px;
+      }
+  }
+  
+  @media (min-width:481px) and (max-width: 767px) {
+    .newsletter-header{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        font-size: 40px;
+
+    }
+    .newsletter-text {
+        padding-bottom: 28px;
+        font-size: 20px;
+    }
+    .newsletter-btn {
+        width: 30%;
+        padding: 30px 30px;
+        margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+      } 
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .newsletter-header{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        font-size: 45px;
+
+    }
+    .newsletter-text {
+        padding-bottom: 28px;
+        font-size: 22px;
+    }
+    .newsletter-btn {
+        width: 30%;
+        padding: 30px 30px;
+        margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+      } 
+  }
+  
+  @media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .newsletter-header{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        font-size: 45px;
+
+    }
+    .newsletter-text {
+        padding-bottom: 28px;
+        font-size: 22px;
+    }
+    .newsletter-btn {
+        width: 30%;
+        padding: 30px 30px;
+        margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+      } 
+  }
+  
+  @media screen and  (min-width: 1281px) {
+    .newsletter-header{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        font-size: 45px;
+
+    }
+    .newsletter-text {
+        padding-bottom: 28px;
+        font-size: 22px;
+    }
+    .newsletter-btn {
+        width: 30%;
+        padding: 30px 30px;
+        margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+      } 
+  }
+  

@@ -1,0 +1,445 @@
+.background-image-contact {
+    background-image: url('../../images/pages/contact.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh; /* Adjust as needed */
+    background-color: rgba(255, 255, 255, 250);
+  }
+
+  .btn-contact{
+    background-color: rgb(20, 20, 58);
+    color: white;
+    padding: 20px 50px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+   }
+
+
+
+@media (min-width:280px) {
+    .background-image-contact {
+        height: 30vh; /* Adjust as needed */
+    }
+
+    .contact-header{
+        text-align: center;
+        color: rgb(20, 20, 58);
+       
+        margin-top: 100px;
+        font-size: 30px;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group button {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+
+    .form-contact{
+        padding: 20px;
+    }
+   .contact-top{
+    margin-top: 30px;
+    margin-bottom: 20px;
+   }
+
+   .form-top{
+    height: 60px;
+    margin-bottom: 20px;
+   }
+
+   .contact-second{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+
+   .btn-contact{
+   margin-bottom: 20px;
+   } 
+
+   .address-location{
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: rgb(20, 20, 58);
+    font-weight: bold;
+   text-align: center;
+   }
+   .address-contact{
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 50px;
+   }
+
+   .address-contact-span{
+    color: rgb(76, 157, 197);
+    font-weight: bold;
+   }
+
+
+   .contact-location{
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: rgb(20, 20, 58);
+    font-weight: bold;
+    text-align: center;
+   
+   }
+
+   .phone-contact{
+    font-size: 13px;
+    text-align: center;
+   
+   }
+
+   .phone-contact-span{
+    color: rgb(76, 157, 197);
+   }
+  }
+    
+  
+  @media (min-width:350px) and (max-width: 480px) {
+
+    .background-image-contact {
+        height: 30vh; /* Adjust as needed */
+    }
+
+    .contact-header{
+        text-align: center;
+        color: rgb(20, 20, 58);
+       
+        margin-top: 100px;
+        font-size: 30px;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group button {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+
+    .form-contact{
+        padding: 20px;
+    }
+   .contact-top{
+    margin-top: 30px;
+    margin-bottom: 20px;
+   }
+
+   .form-top{
+    height: 60px;
+    margin-bottom: 20px;
+   }
+
+   .contact-second{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+
+   .btn-contact{
+   margin-bottom: 20px;
+   }
+
+   .address-location{
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: rgb(20, 20, 58);
+    font-weight: bold;
+   text-align: center;
+   }
+   .address-contact{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+   }
+
+   .address-contact-span{
+    color: rgb(76, 157, 197);
+    font-weight: bold;
+   }
+
+
+   .contact-location{
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: rgb(20, 20, 58);
+    font-weight: bold;
+    text-align: center;
+   
+   }
+
+   .phone-contact{
+    font-size: 20px;
+    text-align: center;
+   
+   }
+
+   .phone-contact-span{
+    color: rgb(76, 157, 197);
+   }
+  }
+  
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    
+    .background-image-contact {
+        height: 30vh; /* Adjust as needed */
+    }
+
+    .contact-header{
+        text-align: center;
+        color: rgb(20, 20, 58);
+       
+        margin-top: 100px;
+        font-size: 30px;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group button {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+
+    .form-contact{
+        padding: 20px;
+    }
+   .contact-top{
+    margin-top: 30px;
+    margin-bottom: 20px;
+   }
+
+   .form-top{
+    height: 60px;
+    margin-bottom: 20px;
+   }
+
+   .contact-second{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+
+   .btn-contact{
+   margin-bottom: 20px;
+   }
+   .location-col{
+    margin-left: 20px;
+   }
+
+   .contact-col{
+    margin-left: 100px;
+   }
+
+   .address-location{
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: rgb(20, 20, 58);
+    font-weight: bold;
+   }
+   .address-contact{
+    font-size: 20px;
+   }
+
+   .address-contact-span{
+    color: rgb(76, 157, 197);
+    font-weight: bold;
+   }
+
+
+   .contact-location{
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: rgb(20, 20, 58);
+    font-weight: bold;
+    margin-left: 40px;
+   }
+
+   .phone-contact{
+    font-size: 20px;
+    margin-left: 40px;
+   }
+
+   .phone-contact-span{
+    color: rgb(76, 157, 197);
+   }
+      
+  }
+  
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+
+    
+    .background-image-contact {
+        height: 80vh; /* Adjust as needed */
+    }
+
+    .contact-header{
+        text-align: center;
+        color: rgb(20, 20, 58);
+       
+        margin-top: 10px;
+        font-size: 60px;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group button {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+
+    .form-contact{
+        padding: 50px;
+    }
+   .contact-top{
+    margin-top: 60px;
+   }
+
+   .form-top{
+    height: 60px;
+    margin-bottom: 20px;
+   }
+
+   .contact-second{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+
+   .btn-contact{
+   margin-bottom: 20px;
+   }
+
+   .location-col{
+    margin-left: 20px;
+   }
+
+   .contact-col{
+    margin-left: 200px;
+   }
+
+   .address-location{
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: rgb(20, 20, 58);
+    font-weight: bold;
+   }
+   .address-contact{
+    font-size: 20px;
+   }
+
+   .address-contact-span{
+    color: rgb(76, 157, 197);
+    font-weight: bold;
+   }
+
+
+   .contact-location{
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: rgb(20, 20, 58);
+    font-weight: bold;
+    margin-left: 40px;
+   }
+
+   .phone-contact{
+    font-size: 20px;
+    margin-left: 40px;
+   }
+
+   .phone-contact-span{
+    color: rgb(76, 157, 197);
+   }
+  }
+  
+  @media screen and  (min-width: 1281px) {
+
+    .background-image-contact {
+        height: 80vh; /* Adjust as needed */
+    }
+
+    .contact-header{
+        text-align: center;
+        color: rgb(20, 20, 58);
+       
+        margin-top: 10px;
+        font-size: 60px;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group button {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+
+    .form-contact{
+        padding: 120px;
+    }
+   .contact-top{
+    margin-top: 60px;
+   }
+
+   .form-top{
+    height: 60px;
+    margin-bottom: 20px;
+   }
+
+   .contact-second{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+
+   .btn-contact{
+   margin-bottom: 20px;
+   }
+
+   .location-col{
+    margin-left: 20px;
+   }
+
+   .contact-col{
+    margin-left: 200px;
+   }
+
+   .address-location{
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: rgb(20, 20, 58);
+    font-weight: bold;
+   }
+   .address-contact{
+    font-size: 25px;
+   }
+
+   .address-contact-span{
+    color: rgb(76, 157, 197);
+    font-weight: bold;
+   }
+
+
+   .contact-location{
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: rgb(20, 20, 58);
+    font-weight: bold;
+    margin-left: 40px;
+   }
+
+   .phone-contact{
+    font-size: 25px;
+    margin-left: 40px;
+   }
+
+   .phone-contact-span{
+    color: rgb(76, 157, 197);
+   }
+  }
+  

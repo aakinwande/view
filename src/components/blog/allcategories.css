@@ -1,0 +1,228 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+
+  .card-text {
+    color: #666;
+  }
+
+  .btn-primary {
+    background-color: rgb(20, 20, 58);
+  }
+
+  .btn-primary:hover {
+    background-color: rgb(76, 157, 197)
+  }
+
+  @media (min-width:280px) {
+    .card {
+        width: 100%;
+        margin-bottom: 50px;
+        margin-left: 10px;
+      }
+    
+      .card-img-top {
+        
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding-top: 20px;
+      }
+
+     
+      .btn-primary {
+        border: none;
+      }
+  }
+
+  @media (min-width:350px) and (max-width: 480px) {
+    .card {
+        width: 100%;
+        margin-bottom: 50px;
+        margin-left: 10px;
+      }
+    
+      .card-img-top {
+        
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding-top: 20px;
+      }
+
+      .card-title{
+        margin-left: 10px;
+
+      }
+
+      .card-text {
+       margin-left: 10px;
+      }
+
+      .btn-primary {
+        margin-left: 10px;
+        border: none;
+      }
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 767px) {
+    .card {
+        width: calc(33.33% - 20px); /* 20px accounts for margins */
+       margin-left: 20px; /* Adjust as needed */
+       margin-bottom: 70px;
+        float: left;
+        clear: none;
+        
+      }
+    
+      .card:nth-child(3n+1) {
+        clear: both;
+      }
+    
+      .card-img-top {
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 30px;
+      }
+
+      .card-title{
+        margin-left: 10px;
+
+      }
+
+      .card-text {
+       margin-left: 10px;
+      }
+
+      .btn-primary {
+        margin-left: 10px;
+        border: none;
+      }
+  }
+
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .card {
+        width: calc(33.33% - 20px); /* 20px accounts for margins */
+       margin-left: 20px; /* Adjust as needed */
+       margin-bottom: 70px;
+        float: left;
+        clear: none;
+        
+      }
+    
+      .card:nth-child(3n+1) {
+        clear: both;
+      }
+    
+      .card-img-top {
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 30px;
+      }
+
+      .card-title{
+        margin-left: 10px;
+
+      }
+
+      .card-text {
+       margin-left: 10px;
+      }
+
+      .btn-primary {
+        margin-left: 10px;
+        border: none;
+      }
+  }
+
+
+  @media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .card {
+        width: calc(33.33% - 20px); /* 20px accounts for margins */
+       margin-left: 20px; /* Adjust as needed */
+       margin-bottom: 70px;
+        float: left;
+        clear: none;
+        
+      }
+    
+      .card:nth-child(3n+1) {
+        clear: both;
+      }
+    
+      .card-img-top {
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 30px;
+      }
+
+      .card-title{
+        margin-left: 10px;
+
+      }
+
+      .card-text {
+       margin-left: 10px;
+      }
+
+      .btn-primary {
+        margin-left: 10px;
+        border: none;
+      }
+    
+  }
+
+  @media screen and  (min-width: 1281px) {
+    .card {
+        width: calc(33.33% - 20px); /* 20px accounts for margins */
+       margin-left: 20px; /* Adjust as needed */
+       margin-bottom: 70px;
+        float: left;
+        clear: none;
+        
+      }
+    
+      .card:nth-child(3n+1) {
+        clear: both;
+      }
+    
+      .card-img-top {
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 30px;
+      }
+
+      .card-title{
+        margin-left: 10px;
+
+      }
+
+      .card-text {
+       margin-left: 10px;
+      }
+
+      .btn-primary {
+        margin-left: 10px;
+        border: none;
+      }
+  }
