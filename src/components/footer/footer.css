@@ -125,8 +125,13 @@
     padding-bottom: 20px;
     font-size: 15px;
 }
+
 .row-details{
   margin-bottom: 50px;
+}
+.footer-logo-img{
+  width: 100%;
+  overflow-y: hidden;
 }
 .footer-address{
   font-size: 15px;
@@ -145,7 +150,7 @@
   
 }
 .row-link-2{
-  margin-left: 25px;
+  margin-left: 15px;
   font-size: 15px;
   text-align: center;
   font-weight: bold;
@@ -165,6 +170,16 @@
   font-size: 20px; 
 }
 
+.nav-link-with-bg-footer {
+  background-color: rgb(20, 20, 58); /* Background color */
+  padding: 7px; /* Adjust padding as needed */
+  border-radius: 70%; /* Rounded background */
+  margin-right: 10px; /* Add spacing between links */
+  transition: background-color 0.3s ease; /* Transition effect */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .rights-footer{
   font-size: 12px;
   padding-top: 12px;
@@ -227,6 +242,16 @@ margin-bottom: 50px;
 .social-icons-container {
   margin-left: 30px; /* Move social icons to the right on smaller screens */
   margin-right: auto;
+}
+.nav-link-with-bg-footer {
+  background-color: rgb(20, 20, 58); /* Background color */
+  padding: 10px; /* Adjust padding as needed */
+  border-radius: 80%; /* Rounded background */
+  margin-right: 15px; /* Add spacing between links */
+  transition: background-color 0.3s ease; /* Transition effect */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 }
   
@@ -379,12 +404,18 @@ margin-bottom: 50px;
 }
 
 .social-icons-container {
-  margin-top: 20px;
-  margin-left: -140px; 
+  margin-left: -105px; 
+  margin-top: 30px;
 }
-
-.social-icon {
-  font-size: 22px; 
+.nav-link-with-bg-footer {
+  background-color: rgb(20, 20, 58); /* Background color */
+  padding: 10px; /* Adjust padding as needed */
+  border-radius: 80%; /* Rounded background */
+  margin-right: 20px; /* Add spacing between links */
+  transition: background-color 0.3s ease; /* Transition effect */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 }
@@ -434,11 +465,17 @@ margin-bottom: 50px;
 }
 
 .social-icons-container {
-  margin-top: 20px;
-  margin-left: -140px; /* Adjust margin */
+  margin-left: -8px; 
+  margin-top: 30px;
 }
-
-.social-icon {
-  font-size: 22px; /* Adjust icon size */
+.nav-link-with-bg-footer {
+  background-color: rgb(20, 20, 58); /* Background color */
+  padding: 10px; /* Adjust padding as needed */
+  border-radius: 80%; /* Rounded background */
+  margin-right: 20px; /* Add spacing between links */
+  transition: background-color 0.3s ease; /* Transition effect */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 }

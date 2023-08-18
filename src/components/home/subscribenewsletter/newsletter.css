@@ -57,11 +57,13 @@
     .newsletter-text {
         padding-bottom: 28px;
         font-size: 15px;
+      
     }
     .newsletter-btn {
         /* Adjust the styles for larger screens */
         padding: 15px 30px;
         font-size: 20px;
+        background-color: red;
       }
   }
   
@@ -109,15 +111,18 @@
   
   @media screen and (min-width: 1025px) and (max-width: 1280px) {
     .newsletter-header{
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding: 20px;
         color: white;
-        font-size: 45px;
+        font-size: 40px;
 
     }
     .newsletter-text {
         padding-bottom: 28px;
-        font-size: 22px;
+        font-size: 15px;
+    }
+
+    .ktn-span{
+        font-weight: bold;
     }
     .newsletter-btn {
         width: 30%;
@@ -125,6 +130,7 @@
         margin: 0 auto;
     display: block;
     margin-bottom: 30px;
+    background-color: RED;
       } 
   }
   
@@ -140,12 +146,17 @@
         padding-bottom: 28px;
         font-size: 22px;
     }
+
+    .ktn-span{
+        font-weight: bold;
+    }
     .newsletter-btn {
         width: 30%;
         padding: 30px 30px;
         margin: 0 auto;
     display: block;
     margin-bottom: 30px;
+   background-color: RED;
       } 
   }
   

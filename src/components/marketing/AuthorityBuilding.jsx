@@ -6,9 +6,9 @@ import Rebecca from "../../images/testimonialpics/rebecca.jpg";
 import Ag from "../../images/testimonialpics/ag.jpg";
 import NewsLetter from "../home/subscribenewsletter/NewsLetter";
 
-const BrandContent = () => {
+const AuthorityBuilding = () => {
   return (
-     <>
+    <>
       <div class="container-fluid-hero-market">
         <div class="row background-image-market">
           <div className="col">
@@ -16,7 +16,7 @@ const BrandContent = () => {
               <h5 className="hero-header-market">Preserve your essence</h5>
               <div className="row">
                 <p className="hero-desc-market">
-                Tell us your narrative we’ll paint the picture 
+                You can preserve your legacy while opening a new stream of income 
 
                 </p>
               </div>
@@ -151,4 +151,4 @@ const BrandContent = () => {
   )
 }
 
-export default BrandContent
+export default AuthorityBuilding

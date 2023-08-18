@@ -15,8 +15,7 @@ const Masterpiece = () => {
           </div>
           <div className="row-master">
             <p className="masterpiece-desc">
-              Clarity Call description Clarity Call description Clarity Call
-              description Clarity Call description Clarity Call
+            We’ll find out how much working with us will pay you 
             </p>
           </div>
         </div>
@@ -29,8 +28,7 @@ const Masterpiece = () => {
           </div>
           <div className="row-master">
             <p className="masterpiece-desc">
-              Clarity Call description Clarity Call description Clarity Call
-              description Clarity Call description Clarity Call
+            We’ll get the boring stuff out of the way so we focus on creating magic 
             </p>
           </div>
         </div>
@@ -43,8 +41,7 @@ const Masterpiece = () => {
           </div>
           <div className="row-master">
             <p className="masterpiece-desc">
-              Clarity Call description Clarity Call description Clarity Call
-              description Clarity Call description Clarity Call
+            Our partnership begins so our worlds unite 
             </p>
           </div>
         </div>
@@ -57,8 +54,7 @@ const Masterpiece = () => {
           </div>
           <div className="row-master">
             <p className="masterpiece-desc">
-              Clarity Call description Clarity Call description Clarity Call
-              description Clarity Call description Clarity Call
+            We’re always one text away for progress updates and check-ins 
             </p>
           </div>
         </div>
@@ -73,8 +69,7 @@ const Masterpiece = () => {
           </div>
           <div className="row-master">
             <p className="masterpiece-desc">
-              Clarity Call description Clarity Call description Clarity Call
-              description Clarity Call description Clarity Call
+              You’ll see results beyond your expectations for the first time 
             </p>
           </div>
         </div>
@@ -87,8 +82,7 @@ const Masterpiece = () => {
           </div>
           <div className="row-master">
             <p className="masterpiece-desc">
-              Clarity Call description Clarity Call description Clarity Call
-              description Clarity Call description Clarity Call
+            We’re open to receiving more brilliant ideas from you 
             </p>
           </div>
         </div>
@@ -101,8 +95,7 @@ const Masterpiece = () => {
           </div>
           <div className="row-master">
             <p className="masterpiece-desc">
-              Clarity Call description Clarity Call description Clarity Call
-              description Clarity Call description Clarity Call
+            You’ll have a first glance at what the world is yet to witness 
             </p>
           </div>
         </div>
@@ -115,8 +108,7 @@ const Masterpiece = () => {
           </div>
           <div className="row-master">
             <p className="masterpiece-desc">
-              Clarity Call description Clarity Call description Clarity Call
-              description Clarity Call description Clarity Call
+            You’ll confess to how well your vision has been executed and we’ll be humble 
             </p>
           </div>
         </div>

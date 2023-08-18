@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SalesCall = () => {
+const Afropreneurship = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const SalesCall = () => {
   )
 }
 
-export default SalesCall
+export default Afropreneurship

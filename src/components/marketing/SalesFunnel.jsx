@@ -6,7 +6,7 @@ import Rebecca from "../../images/testimonialpics/rebecca.jpg";
 import Ag from "../../images/testimonialpics/ag.jpg";
 import NewsLetter from "../home/subscribenewsletter/NewsLetter";
 
-const PersonalPublicImage = () => {
+const SalesFunnel = () => {
   return (
     <>
     <div class="container-fluid-hero-market">
@@ -16,8 +16,8 @@ const PersonalPublicImage = () => {
             <h5 className="hero-header-market">Preserve your essence</h5>
             <div className="row">
               <p className="hero-desc-market">
-              Live your life, we’ll tell your story. 
-
+              Your experience answers someone’s search for answers- tell your story the way it happens 
+The story of your life! You should be too occupied living to worry about telling people about it. 
               </p>
             </div>
             <div className="row btn-crow-market">
@@ -151,4 +151,4 @@ const PersonalPublicImage = () => {
   )
 }
 
-export default PersonalPublicImage
+export default SalesFunnel

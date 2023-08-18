@@ -15,7 +15,8 @@ import Work10 from "../../../images/testimonials/10.jpg";
 const OurWork = () => {
   return (
 <div class="container">
-<h4 className="ourwork-header">Our Work</h4>
+<h4 className="ourwork-header">Some Of What We’ve Done 
+</h4>
   <div class="row-work">
     <div class="col-work">
       <img src={Work1} alt="" class="img-fluid" />

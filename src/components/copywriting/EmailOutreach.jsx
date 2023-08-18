@@ -6,7 +6,7 @@ import Rebecca from "../../images/testimonialpics/rebecca.jpg";
 import Doniie from "../../images/testimonialpics/donnie.jpg";
 import Masterpiece from "../home/masterpiece/Masterpiece";
 
-const WebsiteContent = () => {
+const EmailOutreach = () => {
   return (
     <>
       <div class="container-fluid-hero-copy">
@@ -19,9 +19,12 @@ const WebsiteContent = () => {
               </h5>
               <div className="row">
                 <p className="hero-desc-copy">
-                  Could be your book, product, brand, image, service, or
-                  ideology, we construct narratives to capture and sell your
-                  vision.
+                  “High conversion” sales emails, scripts, and pitches are just
+                  arguments; Speaking to qualified leads gets higher conversion
+                  percentages; but that’s one factor, how compelling is your
+                  argument? That’s the second factor, the third factor is the
+                  volume of qualified leads reached. We deliver all three that’s
+                  why clients are always impressed with our results.
                 </p>
               </div>
               <div className="row btn-crow-copy">
@@ -182,4 +185,4 @@ const WebsiteContent = () => {
   );
 };
 
-export default WebsiteContent;
+export default EmailOutreach;

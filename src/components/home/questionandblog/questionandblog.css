@@ -1,3 +1,69 @@
+@media (min-width:280px) {
+  
+  .qb{
+    overflow: hidden;
+  }
+   .question-col{
+    margin-top: 65px;
+   }
+
+   .blog-col{
+    margin-top: 65px;
+    margin-bottom: 60px;
+   }
+
+   .question-location{
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: rgb(20, 20, 58);
+    font-weight: bold;
+    text-align: center;
+   }
+
+   .question-btn{
+    background-color: rgb(41, 41, 98); /* Green */
+    border: none;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+   }
+   .question-btn:hover{
+    background-color: rgb(76, 157, 197);
+   }
+
+
+   .blog-location{
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: rgb(20, 20, 58);
+    font-weight: bold;
+    text-align: center;
+   }
+
+   
+   .blog-btn{
+    background-color: rgb(41, 41, 98); /* Green */
+  border: none;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  color: white;
+
+   }
+}
 
 @media (min-width: 350px) and (max-width: 480px) {
     .question-col {
@@ -37,9 +103,6 @@
       color: white;
     }
   }
-  
-
-
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .question-col{
@@ -112,30 +175,34 @@
 
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
+
+  .qb{
+    overflow: hidden;
+  }
    .question-col{
-    margin-left: 180px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-top: 65px;
+    margin-bottom: 150px;
    }
 
    .blog-col{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 65px;
+    margin-bottom: 90px;
     margin-left: 100px;
    }
 
    .question-location{
     font-size: 30px;
-    margin-left: 15px;
     margin-bottom: 25px;
     color: rgb(20, 20, 58);
     font-weight: bold;
+    text-align: center;
    }
 
    .question-btn{
     background-color: rgb(41, 41, 98); /* Green */
     border: none;
-    padding: 20px 50px;
+    padding: 20px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -145,6 +212,8 @@
     border-radius: 4px;
     font-weight: bold;
     color: white;
+    width: 50%;
+    margin-left: 130px;
    }
    .question-btn:hover{
     background-color: rgb(76, 157, 197);
@@ -156,7 +225,7 @@
     margin-bottom: 25px;
     color: rgb(20, 20, 58);
     font-weight: bold;
-    margin-left: 40px;
+    text-align: center;
    }
 
    
@@ -173,33 +242,48 @@
   border-radius: 4px;
   font-weight: bold;
   color: white;
+  width: 50%;
+  margin-left: 130px;
+
    }
    .blog-btn:hover{
     background-color: rgb(76, 157, 197);
    }
 
+   .vertical-line {
+    width: 5px; /* Set width to 0 so only the border is visible */
+    height: 35%; /* Make the line span the entire height of its container */
+    border-left: 0.5px solid black; /* Set the thickness and color of the line */
+    position: absolute; /* Position the line absolutely within its parent */
+    left: 51.55%; /* Position the line halfway across the parent */
+    transform: translateX(-50%);
+  }
+
    
   }
 
   @media screen and  (min-width: 1281px) {
+    .qb{
+      overflow: hidden;
+    }
     .question-col{
         margin-left: 180px;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 90px;
+        margin-bottom: 150px;
        }
     
        .blog-col{
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 90px;
+        margin-bottom: 150px;
         margin-left: 100px;
        }
     
        .question-location{
         font-size: 30px;
-        margin-left: 15px;
         margin-bottom: 25px;
         color: rgb(20, 20, 58);
         font-weight: bold;
+        text-align: center;
        }
     
        .question-btn{
@@ -215,6 +299,8 @@
         border-radius: 4px;
         font-weight: bold;
         color: white;
+        width: 50%;
+        margin-left: 130px;
        }
        .question-btn:hover{
         background-color: rgb(76, 157, 197);
@@ -226,7 +312,7 @@
         margin-bottom: 25px;
         color: rgb(20, 20, 58);
         font-weight: bold;
-        margin-left: 40px;
+        margin-left: -155px;
        }
     
        
@@ -243,9 +329,19 @@
       border-radius: 4px;
       font-weight: bold;
       color: white;
+      width: 50%;
+      margin-left: -20px;
        }
        .blog-btn:hover{
         background-color: rgb(76, 157, 197);
        }
+       .vertical-line {
+        width: 5px; /* Set width to 0 so only the border is visible */
+        height: 35%; /* Make the line span the entire height of its container */
+        border-left: 0.5px solid black; /* Set the thickness and color of the line */
+        position: absolute; /* Position the line absolutely within its parent */
+        left: 52%; /* Position the line halfway across the parent */
+        transform: translateX(-50%);
+      }
     
   }

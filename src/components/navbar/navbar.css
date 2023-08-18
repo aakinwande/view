@@ -25,7 +25,7 @@
   height: 60px;
   border-radius: 50%;
   margin-left: 15px;
-  background-color: rgb(41, 41, 98);
+  background-color: rgb(20, 20, 58);
   color: white;
   text-decoration: none;
   transition: opacity 0.3s ease-in-out;
@@ -108,7 +108,7 @@
     display: flex;
     justify-content:space-between;
     margin-right: 10px;
-    background-color: rgb(41, 41, 98);
+    background-color: rgb(20, 20, 58);
     margin-top: -13px;
   }
 
@@ -139,7 +139,7 @@
 }
 
 .services-dropdown-content {
-  background-color: rgb(41, 41, 98);
+  background-color: rgb(20, 20, 58);
   width: 600;
   height: 340px;
   position: absolute;
@@ -170,86 +170,80 @@
   
   }
 
-
   .navbar-brand img {
-    width: 300px;
+    width: 280px;
+    position: relative;
+    bottom: 10px;
+    right: 15px;
   }
-  .navbar-items{
-    font-size: 20px;
-  }
-  .navbar-container{
-    background-image: url('../../images/pages/hero.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right top -6px;
-    background-attachment: scroll;
-    height: 80px; 
+
+  .navbar-container .services-dropdown-content {
     display: flex;
-    justify-content: space-between; 
-    font-size: 2.2rem;
-    position: sticky; 
-    top: 0; 
-    z-index: 100; 
-  }
-
-  .all-navbar{
-    display: flex;
-    justify-content:space-between;
-    margin-right: 10px;
-    background-color: rgb(41, 41, 98);
-    margin-top: -13px;
-  }
-
-  .navbar-items{
-    margin-left: 150px;
-    margin-bottom: 40px;
-    margin-top: 30px;
-    text-align: center;
-    color: white;
-    
-  }
-  
-
-  /* .nav-link-with-bg { 
-    width: 80px; 
-    height: 80px;
-    display: flex; 
     flex-direction: column;
-  }  */
+    background-color: rgb(20, 20, 58); /* Adjust the background color as needed */
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+
+  .navbar-container .services-dropdown-content .service-section {
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  .navbar-container .services-dropdown-content .service-drophead {
+    font-weight: bold;
+    padding: 5px 0;
+    color: rgb(76, 157, 197);
+  }
+  .navbar-container .services-dropdown-content .service-dropdetails {
+    padding: 1px 0;
+    height: 25px;
+    background-color: none;
+    color: white; /* Adjust the color as needed */
+  }
+   
+   .navbar-items{
+    margin-left: 3px;
+    margin-bottom: 60px;
+    align-items: center;
+    text-align: center;
+  }
   
 .close-icon {
   display: none;
-  font-size: 34px;
+  font-size: 24px;
   font-weight: bold;
   margin-right: 20px;
   color: red; 
-  text-align: center;/* Set the color to red */
+  text-align: center;
 }
 
-.services-dropdown-content {
-  background-color: rgb(41, 41, 98);
-  width: 600;
-  height: 340px;
-  position: absolute;
-  margin-top: -7px;
-  margin-left: -260px;
-   }
- 
-   .service-drophead{
-     color: rgb(76, 157, 197);
-     font-weight: bold;
-     margin: 20px;
-   }
- 
-   .service-dropdetails{
-     margin-left: 20px;
-     color: white;
-   }
- 
-   .service-dropdetails:hover{
-     color: rgb(76, 157, 197);
-     background-color: transparent
-   }
+
+.social-icons-container {
+  margin-left: -105px; 
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.nav-link-with-bg-footer {
+  background-color: rgb(20, 20, 58); /* Background color */
+  padding: 10px; /* Adjust padding as needed */
+  border-radius: 80%; /* Rounded background */
+  margin-right: 20px; /* Add spacing between links */
+  transition: background-color 0.3s ease; /* Transition effect */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 }
 
 @media (min-width:481px) and (max-width: 767px) {
@@ -282,7 +276,7 @@
     display: flex;
     justify-content:space-between;
     margin-right: 10px;
-    background-color: rgb(41, 41, 98);
+    background-color: rgb(20, 20, 58);
   }
 
   .navbar-items{
@@ -311,7 +305,7 @@
   text-align: center;/* Set the color to red */
 }
   .services-dropdown-content {
- background-color: rgb(41, 41, 98);
+ background-color: rgb(20, 20, 58);
  width: 600;
  height: 340px;
  position: absolute;
@@ -370,7 +364,7 @@
     display: flex;
     justify-content:space-between;
     margin-right: 10px;
-    background-color: rgb(41, 41, 98);
+    background-color: rgb(20, 20, 58);
     margin-top: -13px;
   }
 
@@ -387,7 +381,7 @@
     height: 40px;
   } 
   .services-dropdown-content {
-    background-color: rgb(41, 41, 98);
+    background-color: rgb(20, 20, 58);
     width: 600;
     height: 340px;
     position: absolute;
@@ -423,6 +417,7 @@
     margin-left: 10px;
   }
   .navbar-items{
+    margin-left: 30px;
     font-size: 16px;
   }
   .navbar-container{
@@ -446,18 +441,15 @@
     margin-right: 35px;
   }
 
-  .navbar-items{
-    margin-left: 30px;
-  }
 
   .nav-link-with-bg { 
     width: 40px; 
     height: 40px;
   } 
   .services-dropdown-content {
- background-color: rgb(41, 41, 98);
+    background-color: rgb(20, 20, 58);
  width: 600;
- height: 340px;
+ height: 400px;
  position: absolute;
  margin-top: -7px;
  margin-left: -260px;
@@ -468,10 +460,17 @@
     font-weight: bold;
     margin: 20px;
   }
+  .service-drophead:hover{
+    color: white;
+    background-color: transparent
+  }
+  
 
   .service-dropdetails{
     margin-left: 20px;
     color: white;
+    font-size: 15px;
+   
   }
 
   .service-dropdetails:hover{
@@ -514,7 +513,7 @@
   }
 
   .navbar-items{
-    margin-left: 30px;
+    margin-left: 50px;
   }
 
   .nav-link-with-bg { /* Horizontally center the content */
@@ -523,9 +522,9 @@
   }
 
   .services-dropdown-content {
-    background-color: rgb(41, 41, 98);
+    background-color: rgb(20, 20, 58);
     width: 600;
-    height: 340px;
+    height: 380px;
     position: absolute;
     margin-top: -7px;
     margin-left: -260px;
@@ -536,6 +535,10 @@
        font-weight: bold;
        margin: 20px;
      }
+     .service-drophead:hover{
+      color: white;
+      background-color: transparent
+    }
    
      .service-dropdetails{
        margin-left: 20px;

@@ -26,7 +26,7 @@ const MyNavbar = () => {
       expand="lg"
       className="navbar-container"
     >
-      <Navbar.Brand href="#home">
+      <Navbar.Brand href="/">
         <img
           src={KickLogo}
           width="300"
@@ -50,63 +50,76 @@ const MyNavbar = () => {
           <NavDropdown className="navbar-items" title="SERVICES" id="collapsible-nav-dropdown">
             <div className="services-dropdown-content">
               <div className="service-section">
-                <NavDropdown.Item className="service-drophead" href="/ghostwriting">Professional Ghostwriting</NavDropdown.Item>
-                <NavDropdown.Item className="service-dropdetails" href="/business-books">
-                Business Books
-                </NavDropdown.Item>
-                <NavDropdown.Item className="service-dropdetails" href="/memoir-autobiography">
-                Memoir/Autobiography
-                </NavDropdown.Item>
-                <NavDropdown.Item className="service-dropdetails" href="/general-nonfiction">
-                General Nonfiction
+                <NavDropdown.Item className="service-drophead" href="/ghostwriting">Professional Ghostwriting</NavDropdown.Item>                
+                <NavDropdown.Item className="service-dropdetails" href="/fiction">
+                Fiction
                 </NavDropdown.Item>
                 <NavDropdown.Item className="service-dropdetails" href="/self-help">
                 Self-help
                 </NavDropdown.Item>
-                <NavDropdown.Item className="service-dropdetails" href="/fiction">
-                Fiction
-                </NavDropdown.Item>
                 <NavDropdown.Item className="service-dropdetails" href="/childrens">
                 Children’s
                 </NavDropdown.Item>
-                <NavDropdown.Item className="service-dropdetails" href="/social-media">
-                Social Media
-                </NavDropdown.Item>
+                
                 <NavDropdown.Item className="service-dropdetails" href="/speeches">
                 Speeches
                 </NavDropdown.Item>
+                <NavDropdown.Item className="service-dropdetails" href="/blog-content">
+              Blog Content
+                </NavDropdown.Item>
+                <NavDropdown.Item className="service-dropdetails" href="/business-books">
+                Business Books
+                </NavDropdown.Item>
+                <NavDropdown.Item className="service-dropdetails" href="/general-nonfiction">
+                General Nonfiction
+                </NavDropdown.Item>
+                <NavDropdown.Item className="service-dropdetails" href="/memoir-autobiography">
+                Memoir/Autobiography
+                </NavDropdown.Item>
+                <NavDropdown.Item className="service-dropdetails" href="/thought-leadership">
+                Thought leadership pieces
+                </NavDropdown.Item>
               </div>
               <div className="service-section">
-                <NavDropdown.Item className="service-drophead" href="/copywriting">Professional Copywriting</NavDropdown.Item>
-                <NavDropdown.Item className="service-dropdetails" href="/sales-funnel-scripts">
-                Sales funnel scripts
-                </NavDropdown.Item>
-                <NavDropdown.Item className="service-dropdetails" href="/email-campaign">
-                Email campaign
-                </NavDropdown.Item>
-                <NavDropdown.Item className="service-dropdetails" href="/thought-leadership-articles">
-                Thought leadership articles
-                </NavDropdown.Item>
-                <NavDropdown.Item className="service-dropdetails" href="/sales-call-scripts">
-                Sales call scripts
+                <NavDropdown.Item className="service-drophead" href="/copywriting">Persuasive Copywriting</NavDropdown.Item>
+                <NavDropdown.Item className="service-dropdetails" href="/email-outreach">
+                Email Outreach
                 </NavDropdown.Item>
                 <NavDropdown.Item className="service-dropdetails" href="/website-content">
                 Website content
                 </NavDropdown.Item>
+                <NavDropdown.Item className="service-dropdetails" href="/social-media">
+                Social media content
+                </NavDropdown.Item>               
               </div>
               <div className="service-section">
                 <NavDropdown.Item className="service-drophead" href="/marketing">Marketing and Public Relations</NavDropdown.Item>
-                <NavDropdown.Item className="service-dropdetails" href="/brand-content-strategy">
+                <NavDropdown.Item className="service-dropdetails" href="/sales-call-scripts">
+                SalesCall
+                </NavDropdown.Item>
+                <NavDropdown.Item className="service-dropdetails" href="/consultation">
+                Consultation
+                </NavDropdown.Item>
+                <NavDropdown.Item className="service-dropdetails" href="/sales-funnel-scripts">
+                Sales Funnels
+                </NavDropdown.Item>
+                <NavDropdown.Item className="service-dropdetails" href="/authority-building">
+                Authority building
+                </NavDropdown.Item>
+                <NavDropdown.Item className="service-dropdetails" href="/video-content-editing">
+                Video content editing
+                </NavDropdown.Item>
+                <NavDropdown.Item className="service-dropdetails" href="/brand-content">
                 Brand content strategy
                 </NavDropdown.Item>
-                <NavDropdown.Item className="service-dropdetails" href="/personality-public-image">
+                <NavDropdown.Item className="service-dropdetails" href="/personal-public-image">
                 Personality public image
                 </NavDropdown.Item>
               </div>
             </div>
           </NavDropdown>
-          <Nav.Link className="navbar-items" href="/blog">BLOG</Nav.Link>
-          <Nav.Link className="navbar-items" href="/contact-us">CONTACT</Nav.Link>
+          <Nav.Link className="navbar-items" href="/blog">KTN</Nav.Link>
+          <Nav.Link className="navbar-items" href="/contact-us">WE'RE HERE</Nav.Link>
         </Nav>
         <Nav>
           <Nav.Link href="#instagram" className="nav-link-with-bg">

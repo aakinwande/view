@@ -2,9 +2,9 @@ import React from 'react'
 import BlogPost2 from '../../images/blogpics/2.jpg'
 import BlogPost3 from '../../images/blogpics/3.jpg'
 
-import './allcategories.css' 
+import './thoughtstochop.css' 
 
-const AllCategories = () => {
+const  ThoughtsToChop = () => {
   return (
     <>
      <div class="card" >
@@ -36,4 +36,4 @@ const AllCategories = () => {
   )
 }
 
-export default AllCategories
+export default ThoughtsToChop

@@ -6,7 +6,7 @@ import Rebecca from "../../images/testimonialpics/rebecca.jpg";
 import Doniie from "../../images/testimonialpics/donnie.jpg";
 import Masterpiece from "../home/masterpiece/Masterpiece";
 
-const WebsiteContent = () => {
+const SocialMedia = () => {
   return (
     <>
       <div class="container-fluid-hero-copy">
@@ -19,9 +19,9 @@ const WebsiteContent = () => {
               </h5>
               <div className="row">
                 <p className="hero-desc-copy">
-                  Could be your book, product, brand, image, service, or
-                  ideology, we construct narratives to capture and sell your
-                  vision.
+                  Your part is living to create the content our job is telling
+                  your story by articulating and putting out content that sticks
+                  with your audience
                 </p>
               </div>
               <div className="row btn-crow-copy">
@@ -182,4 +182,4 @@ const WebsiteContent = () => {
   );
 };
 
-export default WebsiteContent;
+export default SocialMedia;

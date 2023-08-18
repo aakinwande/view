@@ -20,7 +20,8 @@ import Ralph from "../../../images/testimonialpics/Ralph.jpeg";
 const Testimonial = () => {
   return (
     <div class="container">
-      <h4 class="testimonial-header">Testimonial</h4>
+      <h4 class="testimonial-header">Great People Blow Our Trumpet 
+</h4>
       <div class="row pb-5">
         <div className="col-lg-4 col-md-6 col-12">
           <div className="row">

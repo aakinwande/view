@@ -6,7 +6,7 @@ import Rebecca from "../../images/testimonialpics/rebecca.jpg";
 import Ag from "../../images/testimonialpics/ag.jpg";
 import NewsLetter from "../home/subscribenewsletter/NewsLetter";
 
-const PersonalPublicImage = () => {
+const SalesCall = () => {
   return (
     <>
     <div class="container-fluid-hero-market">
@@ -16,7 +16,7 @@ const PersonalPublicImage = () => {
             <h5 className="hero-header-market">Preserve your essence</h5>
             <div className="row">
               <p className="hero-desc-market">
-              Live your life, we’ll tell your story. 
+              You can preserve your legacy while opening a new stream of income 
 
               </p>
             </div>
@@ -151,4 +151,4 @@ const PersonalPublicImage = () => {
   )
 }
 
-export default PersonalPublicImage
+export default SalesCall

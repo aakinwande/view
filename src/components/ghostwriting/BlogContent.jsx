@@ -8,7 +8,7 @@ import Travis from "../../images/testimonialpics/travis.jpg";
 import Ralph from "../../images/testimonialpics/Ralph.jpeg";
 import Masterpiece from "../home/masterpiece/Masterpiece";
 
-const SelfHelp = () => {
+const BlogContent = () => {
   return (
     <>
     <div class="container-fluid-hero-ghost">
@@ -261,4 +261,4 @@ You can help people, and make money simultaneously. Don’t hold your knowledge 
   )
 }
 
-export default SelfHelp
+export default BlogContent
