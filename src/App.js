@@ -30,6 +30,21 @@ import VideoContentEditing from '../src/components/marketing/VideoContentEditing
 import AuthorityBuilding from '../src/components/marketing/AuthorityBuilding'
 import Consultation from '../src/components/marketing/Consultation'
 import BlogContent from '../src/components/ghostwriting/BlogContent'
+import HowToSpeak from './components/blog/TOCBlog/HowToSpeak';
+import LifeWorth from './components/blog/TOCBlog/LifeWorth';
+import SexualTransmission from './components/blog/TOCBlog/SexualTransmission';
+import Meditation from './components/blog/TOCBlog/Meditation';
+import Parents from './components/blog/TOCBlog/Parents';
+import BuildTransaction from './components/blog/AfroprenueshipBlog/BuildTransaction';
+import BillClient from './components/blog/AfroprenueshipBlog/BillClient';
+import UsePeople from './components/blog/AfroprenueshipBlog/UsePeople';
+import ImposterSyndrome from './components/blog/AfroprenueshipBlog/ImposterSyndrome';
+import ColdOutreach from './components/blog/AfroprenueshipBlog/ColdOutreach';
+import PercievedValue from './components/blog/MarketSalesBlog/PercievedValue';
+import Whore from './components/blog/MarketSalesBlog/Whore';
+import Clients from './components/blog/MarketSalesBlog/Clients';
+import Selling from './components/blog/MarketSalesBlog/Selling';
+import AskedQuestion from './components/faq/AskedQuestion';
 
 function App() {
   return (
@@ -53,7 +68,7 @@ function App() {
       <Route path='/copywriting' element={<Copywriting/>} />
       <Route path='/sales-funnel-scripts' element={<SalesFunnel/>} />
       <Route path='/email-outreach' element={<EmailOutreach/>} />
-      <Route path='/thought-leadership-articles' element={<ThoughtLeadership/>} />
+      <Route path='/thought-leadership' element={<ThoughtLeadership/>} />
       <Route path='/sales-call-scripts' element={<SalesCall/>} />
       <Route path='/website-content' element={<WebsiteContent/>} />
       <Route path='/marketing' element={<Marketing/>} />
@@ -62,7 +77,22 @@ function App() {
       <Route path='/video-content-editing' element={<VideoContentEditing/>} />
       <Route path='/authority-building' element={< AuthorityBuilding />} />
       <Route path='/consultation' element={<Consultation/>} />
-      {/* <Route path='/allcategories' element={<AllCategoriesBlogPage/>} /> */}
+      <Route path='/toc-one' element={<HowToSpeak/>} />
+      <Route path='/toc-two' element={<LifeWorth/>} />
+      <Route path='/toc-three' element={<SexualTransmission/>} />
+      <Route path='/toc-four' element={<Meditation/>} />
+      <Route path='/toc-five' element={<Parents/>} />
+      <Route path='/afro-one' element={<BuildTransaction/>} />
+      <Route path='/afro-two' element={<BillClient/>} />
+      <Route path='/afro-three' element={<UsePeople/>} />
+      <Route path='/afro-four' element={<ImposterSyndrome/>} />
+      <Route path='/afro-five' element={<ColdOutreach/>} />
+      <Route path='/marketingsales-one' element={<PercievedValue/>} />
+      <Route path='/marketingsales-two' element={<ColdOutreach/>} />
+      <Route path='/marketingsales-three' element={<Whore/>} />
+      <Route path='/marketingsales-four' element={<Clients/>} />
+      <Route path='/marketingsales-five' element={<Selling/>} />
+      <Route path='/faq' element={<AskedQuestion/>} />
     </Routes>
     <Footer />
   </Router>

@@ -14,7 +14,7 @@
 
 
   .btn-hero-one,
-  .btn-hero-two {/* Add space between buttons */
+  .btn-hero-two {
     border-radius: 10px;
     border: none;
     background-color: rgb(20, 20, 58);
@@ -294,7 +294,7 @@ margin: 5px;
   }
 
   .btn-crow{
-    width: 50%;
+    width: 60%;
     padding-left: 50px;
     padding-bottom: 50px;
   }
@@ -307,7 +307,7 @@ margin: 5px;
   
   .btn-hero-two {
     background-color: rgb(20, 20, 58);
-    padding: 20px 32px;
+    padding: 20px 12px;
     border-radius: 4px; 
   }
 
@@ -325,16 +325,17 @@ margin: 5px;
   }
 
   .partners{
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
+    margin-top: 35px;
    
   }
 
   
   .partners-hero-img img {
-   
-    max-width: 15%;
-      margin: 61px;
+  
+    max-width: 6%;
+    margin: 50px 10px 10px 175px;
   }
 }
 
@@ -366,17 +367,18 @@ margin: 5px;
   .btn-crow{
     width: 50%;
     padding-left: 50px;
+   
   }
   .btn-hero-one{
     background-color: rgb(20, 20, 58);
-    padding: 20px 32px;
+    padding: 20px 50px;
     border-radius: 4px;
     margin-top: 1px;
   }
   
   .btn-hero-two {
     background-color: rgb(20, 20, 58);
-    padding: 20px 32px;
+    padding: 20px 20px;
     border-radius: 4px;
   }
 
@@ -389,20 +391,21 @@ margin: 5px;
   }
  
   .btn-text{
-    font-size: 25px;
+    font-size: 10px;
   }
 
   .partners{
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
+    margin-top: 35px;
    
   }
 
   
 .partners-hero-img img {
-  padding-left: 35px;
-  max-width: 18%;
-    margin: 30px;
+
+  max-width: 6%;
+    margin: 50px 10px 10px 200px;
 }
 }
 

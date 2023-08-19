@@ -7,6 +7,8 @@ import David from "../../images/testimonialpics/david.jpg";
 import Travis from "../../images/testimonialpics/travis.jpg";
 import Ralph from "../../images/testimonialpics/Ralph.jpeg";
 import Masterpiece from "../home/masterpiece/Masterpiece";
+import QuestionandBlog from "../home/questionandblog/QuestionandBlog";
+
 
 const BlogContent = () => {
   return (
@@ -230,33 +232,20 @@ You can help people, and make money simultaneously. Don’t hold your knowledge 
         </div>
       </div>
     </div>
-    <div class="container-fluid newsletter">
-      <div className="row">
-        <h4 className="newsletter-header">Subscribe to KTN+</h4>
-      </div>
-      <div className="row">
-        <p className="newsletter-text">
-          Your experience in life answers someone’s search for answers- that’s
-          great content! We listen to digest your story, then package and
-          present it in the best form to achieve a purpose. You can grow your
-          authority in your industry, turn your experiences into passive
-          income, curate your legacy, impact people’s lives, or do nothing…
-        </p>
-      </div>
-      <div className="row">
-        <a
-          href="https://calendly.com/kalukalu/30min"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{textDecoration: 'none'}}
-        >
-          <button className="newsletter-btn">
-            TURN MY STORY TO PASSIVE INCOME
-          </button>
-        </a>
-      </div>
+    <div class="container-fluid cta">
+      <h4 style={{fontSize: '20px'}}>     Your experience in life answers someone’s search for answers- that’s
+            great content! We listen to digest your story, then package and
+            present it in the best form to achieve a purpose. You can grow your
+            authority in your industry, turn your experiences into passive
+            income, curate your legacy, impact people’s lives, or do nothing…</h4>
+      <button style={{fontSize: '14px'}} className="btn-cta"> TURN MY STORY TO PASSIVE INCOME</button>
     </div>
-    <Masterpiece />
+
+
+    
+      <Masterpiece />
+      <QuestionandBlog/>
+   
   </>
   )
 }

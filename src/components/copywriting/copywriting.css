@@ -1,5 +1,5 @@
 .background-image-copy {
-  background-image: url('../../images/pages/copywritinghero.jpg'); /* Replace with your image path */
+  background-image: url('../../images/pages/copyImage.png'); /* Replace with your image path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -214,7 +214,7 @@
   
     .background-image-copy {
       
-      height: 160vh; /* Adjust as needed */
+      height: 100vh; /* Adjust as needed */
     }
   
     .container-fluid-hero-copy{
@@ -270,7 +270,7 @@
   
     .background-image-copy {
       
-      height: 160vh; /* Adjust as needed */
+      height: 100vh; /* Adjust as needed */
     }
   
     .container-fluid-hero-copy{

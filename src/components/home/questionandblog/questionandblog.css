@@ -178,6 +178,7 @@
 
   .qb{
     overflow: hidden;
+    margin-top: 70px;
   }
    .question-col{
     margin-left: 10px;
@@ -202,7 +203,7 @@
    .question-btn{
     background-color: rgb(41, 41, 98); /* Green */
     border: none;
-    padding: 20px 40px;
+    padding: 20px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -226,6 +227,7 @@
     color: rgb(20, 20, 58);
     font-weight: bold;
     text-align: center;
+    margin-left: -50px;
    }
 
    
@@ -243,7 +245,7 @@
   font-weight: bold;
   color: white;
   width: 50%;
-  margin-left: 130px;
+  margin-left: 80px;
 
    }
    .blog-btn:hover{
@@ -255,16 +257,18 @@
     height: 35%; /* Make the line span the entire height of its container */
     border-left: 0.5px solid black; /* Set the thickness and color of the line */
     position: absolute; /* Position the line absolutely within its parent */
-    left: 51.55%; /* Position the line halfway across the parent */
+    left: 50%; /* Position the line halfway across the parent */
     transform: translateX(-50%);
   }
 
    
   }
 
-  @media screen and  (min-width: 1281px) {
+@media screen and  (min-width: 1281px) {
     .qb{
       overflow: hidden;
+      margin-top: 70px;
+      margin-bottom: 190px;
     }
     .question-col{
         margin-left: 180px;
@@ -289,7 +293,7 @@
        .question-btn{
         background-color: rgb(41, 41, 98); /* Green */
         border: none;
-        padding: 20px 50px;
+        padding: 20px 30px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -312,7 +316,7 @@
         margin-bottom: 25px;
         color: rgb(20, 20, 58);
         font-weight: bold;
-        margin-left: -155px;
+        margin-left: -220px;
        }
     
        
@@ -330,7 +334,7 @@
       font-weight: bold;
       color: white;
       width: 50%;
-      margin-left: -20px;
+      margin-left: -90px;
        }
        .blog-btn:hover{
         background-color: rgb(76, 157, 197);
@@ -340,7 +344,7 @@
         height: 35%; /* Make the line span the entire height of its container */
         border-left: 0.5px solid black; /* Set the thickness and color of the line */
         position: absolute; /* Position the line absolutely within its parent */
-        left: 52%; /* Position the line halfway across the parent */
+        left: 50%; /* Position the line halfway across the parent */
         transform: translateX(-50%);
       }
     

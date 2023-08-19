@@ -23,6 +23,34 @@ const Testimonial = () => {
       <h4 class="testimonial-header">Great People Blow Our Trumpet 
 </h4>
       <div class="row pb-5">
+      <div class="col-lg-4 col-md-6 col-12">
+          <div className="col">
+            <div className="row">
+              <p style={{color: 'black'}} className="testimonial-text">
+              "Kick&co creations are more than just compelling narratives;
+                they are works of art. Reach out to them for exceptional
+                ghostwriting and marketing services where you'll receive more
+                than words, you’ll get stories told with passion and depth,
+                especially for those seeking outstanding content and meaningful
+                connections with their audience, look no further"
+              </p>
+            </div>
+            <div className="row">
+              <div className="col-4">
+                <img className="testimonial-img" src={Ralph} alt="" />
+              </div>
+              <div className="col-8 pt-3">
+                <div className="row">
+                  <h4 className="testimonial-name">Ralph Danna P. A.</h4>
+                  <p className="testimonial-desc">
+                    {" "}
+                    Owner of Dannasales, Spring Hill, Florida, United States .
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="col-lg-4 col-md-6 col-12">
           <div className="row">
             <p style={{color: 'black'}} className="testimonial-text">
@@ -90,141 +118,6 @@ const Testimonial = () => {
           <div className="col">
             <div className="row">
               <p style={{color: 'black'}} className="testimonial-text">
-              "Kick&co creations are more than just compelling narratives;
-                they are works of art. Reach out to them for exceptional
-                ghostwriting and marketing services where you'll receive more
-                than words, you’ll get stories told with passion and depth,
-                especially for those seeking outstanding content and meaningful
-                connections with their audience, look no further"
-              </p>
-            </div>
-            <div className="row">
-              <div className="col-4">
-                <img className="testimonial-img" src={Ralph} alt="" />
-              </div>
-              <div className="col-8 pt-3">
-                <div className="row">
-                  <h4 className="testimonial-name">Ralph Danna P. A.</h4>
-                  <p className="testimonial-desc">
-                    {" "}
-                    Owner of Dannasales, Spring Hill, Florida, United States .
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-12">
-          <div className="col">
-            <div className="row">
-              <p style={{color: 'black'}} className="testimonial-text">
-              "Love the direction you went with the narrative, fantastic
-                writing. Gosh, I can just imagine the types of people who would
-                benefit from YOU telling their story, you’re creating artwork
-                with words– fantastic. Keep up the good work."
-              </p>
-            </div>
-            <div className="row">
-              <div className="col-4">
-                <img className="testimonial-img" src={Megan} alt="" />
-              </div>
-              <div className="col-8 pt-3">
-                <div className="row">
-                  <h4 className="testimonial-name">Megan Tribble</h4>
-                  <p className="testimonial-desc">
-                  Content Marketer and Coach, <br />
-                    Danville, Indiana, United
-                    States.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-6 col-12">
-          <div className="row">
-            <p style={{color: 'black'}} className="testimonial-text">
-            "Contextualization and personalization are what AI is lacking
-                right now. There will always be a need for great writers like
-                Kick’s"
-            </p>
-          </div>
-          <div className="row">
-            <div className="col-4">
-              <img className="testimonial-img" src={Solaru} alt="" />
-            </div>
-            <div className="col-8 pt-3">
-              <div className="row">
-                <h4 className="testimonial-name">Elizabeth Solaru</h4>
-                <p className="testimonial-desc">
-                  {" "}
-                  Director, Luxury Business Emporium, <br />London Area,  United
-                    Kingdom.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-12">
-          <div className="col">
-            <div className="row">
-              <p style={{color: 'black'}} className="testimonial-text">
-              "I love seeing a band of young people come together to create
-                something and you have created something truly remarkable here;
-                I happily recommend your services to people."
-              </p>
-            </div>
-            <div className="row">
-              <div className="col-4">
-                <img className="testimonial-img" src={Eze} alt="" />
-              </div>
-              <div className="col-8 pt-3">
-                <div className="row">
-                  <h4 className="testimonial-name">Douglas Eze, CFF</h4>
-                  <p className="testimonial-desc">
-                    {" "}
-                    Founder & CEO, Largo Financial Services LLC. <br /> Washington
-                    DC-Baltimore Area, United States.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-12">
-          <div className="col">
-            <div className="row">
-              <p style={{color: 'black'}} className="testimonial-text">
-              "Your experience of ghostwriting is a great example of turning
-                ideas into profitable ventures. It's all about adding value and
-                creating win-win partnerships. Providing this valuable service
-                has been your key to success. Well done!"
-              </p>
-            </div>
-            <div className="row">
-              <div className="col-4">
-                <img className="testimonial-img" src={David} alt="" />
-              </div>
-              <div className="col-8 pt-3">
-                <div className="row">
-                  <h4 className="testimonial-name">David D. Doerrier</h4>
-                  <p className="testimonial-desc">
-                    {" "}
-                    Presentation Empowerment Coach David D. Doerrier,<br /> LLC
-                    Atlanta Metropolitan Area,  <br />United States.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-12">
-          <div className="col">
-            <div className="row">
-              <p style={{color: 'black'}} className="testimonial-text">
               "I want to send a big appreciation to Kick&co, I never thought
                 I'd write a book until last year considering I didn't even like
                 reading until last year. Your help, expertise, and openness to
@@ -247,6 +140,59 @@ const Testimonial = () => {
             </div>
           </div>
         </div>
+       
+        <div class="col-lg-4 col-md-6 col-12">
+          <div className="col">
+            <div className="row">
+              <p style={{color: 'black'}} className="testimonial-text">
+              "This is a great team! Very intellectual, and efficient, and
+                serves as great accountability partners for projects you work
+                on."
+              </p>
+            </div>
+            <div className="row">
+              <div className="col-4">
+                <img className="testimonial-img" src={Ag} alt="" />
+              </div>
+              <div className="col-8 pt-3">
+                <div className="row">
+                  <h4 className="testimonial-name">Ag Goldsmith</h4>
+                  <p className="testimonial-desc">
+                  Finance Director, Hendrick Toyota Scion, Charleston, <br />South
+                    Carolina, United States.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div className="col">
+            <div className="row">
+              <p style={{color: 'black'}} className="testimonial-text">
+              "You walk your talk."
+              </p>
+            </div>
+            <div className="row">
+              <div className="col-4">
+                <img className="testimonial-img" src={Rebecca} alt="" />
+              </div>
+              <div className="col-8 pt-3">
+                <div className="row">
+                  <h4 className="testimonial-name">Rebecca Jenkins</h4>
+                  <p className="testimonial-desc">
+                    {" "}
+                    Founder at RJEN. <br />Bristol, United Kingdom.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+       
+       
 
         <div class="col-lg-4 col-md-6 col-12">
           <div className="col">
@@ -278,51 +224,118 @@ const Testimonial = () => {
           <div className="col">
             <div className="row">
               <p style={{color: 'black'}} className="testimonial-text">
-              "This is a great team! Very intellectual, and efficient, and
-                serves as great accountability partners for projects you work
-                on."
+              "I love seeing a band of young people come together to create
+                something and you have created something truly remarkable here;
+                I happily recommend your services to people."
               </p>
             </div>
             <div className="row">
               <div className="col-4">
-                <img className="testimonial-img" src={Ag} alt="" />
+                <img className="testimonial-img" src={Eze} alt="" />
               </div>
               <div className="col-8 pt-3">
                 <div className="row">
-                  <h4 className="testimonial-name">Ag Goldsmith</h4>
+                  <h4 className="testimonial-name">Douglas Eze, CFF</h4>
                   <p className="testimonial-desc">
-                  Finance Director, Hendrick Toyota Scion, Charleston, <br />South
-                    Carolina, United States.
+                    {" "}
+                    Founder & CEO, Largo Financial Services LLC. <br /> Washington
+                    DC-Baltimore Area, United States.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
+  
         <div class="col-lg-4 col-md-6 col-12">
           <div className="col">
             <div className="row">
               <p style={{color: 'black'}} className="testimonial-text">
-              "You walk your talk."
+              "Love the direction you went with the narrative, fantastic
+                writing. Gosh, I can just imagine the types of people who would
+                benefit from YOU telling their story, you’re creating artwork
+                with words– fantastic. Keep up the good work."
               </p>
             </div>
             <div className="row">
               <div className="col-4">
-                <img className="testimonial-img" src={Rebecca} alt="" />
+                <img className="testimonial-img" src={Megan} alt="" />
               </div>
               <div className="col-8 pt-3">
                 <div className="row">
-                  <h4 className="testimonial-name">Rebecca Jenkins</h4>
+                  <h4 className="testimonial-name">Megan Tribble</h4>
                   <p className="testimonial-desc">
-                    {" "}
-                    Founder at RJEN. <br />Bristol, United Kingdom.
+                  Content Marketer and Coach, <br />
+                    Danville, Indiana, United
+                    States.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div className="col">
+            <div className="row">
+              <p style={{color: 'black'}} className="testimonial-text">
+              "Your experience of ghostwriting is a great example of turning
+                ideas into profitable ventures. It's all about adding value and
+                creating win-win partnerships. Providing this valuable service
+                has been your key to success. Well done!"
+              </p>
+            </div>
+            <div className="row">
+              <div className="col-4">
+                <img className="testimonial-img" src={David} alt="" />
+              </div>
+              <div className="col-8 pt-3">
+                <div className="row">
+                  <h4 className="testimonial-name">David D. Doerrier</h4>
+                  <p className="testimonial-desc">
+                    {" "}
+                    Presentation Empowerment Coach David D. Doerrier,<br /> LLC
+                    Atlanta Metropolitan Area,  <br />United States.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-4 col-md-6 col-12">
+          <div className="row">
+            <p style={{color: 'black'}} className="testimonial-text">
+            "Contextualization and personalization are what AI is lacking
+                right now. There will always be a need for great writers like
+                Kick’s"
+            </p>
+          </div>
+          <div className="row">
+            <div className="col-4">
+              <img className="testimonial-img" src={Solaru} alt="" />
+            </div>
+            <div className="col-8 pt-3">
+              <div className="row">
+                <h4 className="testimonial-name">Elizabeth Solaru</h4>
+                <p className="testimonial-desc">
+                  {" "}
+                  Director, Luxury Business Emporium, <br />London Area,  United
+                    Kingdom.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+       
+      
+
+       
+
+
+     
+
+      
+      
         
 
       </div>

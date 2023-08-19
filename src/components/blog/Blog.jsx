@@ -3,8 +3,10 @@ import "./blog.css";
 import ThoughtsToChop from "./ThoughtsToChop";
 import MarketingSales from "./MarketingSales";
 import Afropreneurship from "./Afropreneurship";
+import NewsLetter from "../home/subscribenewsletter/NewsLetter";
+import QuestionandBlog from "../home/questionandblog/QuestionandBlog";
 const Blog = () => {
-  const [selectedPage, setSelectedPage] = useState("All Categories");
+  const [selectedPage, setSelectedPage] = useState("Thoughts to chop");
 
   const handlePageChange = (event) => {
     setSelectedPage(event.target.value);
@@ -92,28 +94,8 @@ const Blog = () => {
           </div>
         </div>
       </div>
-      <div class="container-fluid newsletter">
-        <div className="row">
-          <h4 className="newsletter-header">Subscribe to KTN+</h4>
-        </div>
-        <div className="row">
-          <p className="newsletter-text">
-            KTN+ monthly publication analyses hours of interviews we’ve had with
-            the globe’s finest salespeople and demystifies their strategies so
-            you can use the same selling techniques of persuasion, seduction,
-            and compulsion to grow your business exponentially
-          </p>
-        </div>
-        <div className="row">
-          <p className="newsletter-text">
-            Get fly-on-the-wall access to tactics used by the top 1% of sales
-            closers across the globe for $12.99/month
-          </p>
-        </div>
-        <div className="row">
-          <button className="newsletter-btn">SUBSCRIBE</button>
-        </div>
-      </div>
+      <QuestionandBlog />
+      <NewsLetter />
     </>
   );
 };

@@ -1,11 +1,12 @@
 import React from "react";
 import "./newsletter.css";
+import KtnPlus from '../../../images/ktnLogo/ktnPlus.svg'
 
 const NewsLetter = () => {
   return (
     <div class="container-fluid newsletter">
       <div className="row">
-        <h4 className="newsletter-header">Subscribe to KTN+</h4>
+        <h4 className="newsletter-header"><img src={KtnPlus} alt="" className="ktnplus" /></h4>
       </div>
       <div className="row">
         <p className="newsletter-text">
@@ -35,7 +36,7 @@ const NewsLetter = () => {
           the same selling techniques of persuasion, seduction, and compulsion
           to blow your business out of the water. Get fly-on-the-wall access to
           tactics used by the top 1% of sales closers across the globe for
-          <span className="ktn-span"> $12.99/month</span>
+          <span className="ktn-span" style={{color: 'green'}}> $12.99/month</span>
         </p>
       </div>
       <div className="row">

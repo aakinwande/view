@@ -30,8 +30,10 @@
 
   .image-box {
     border: 1px solid #ccc;
+    border-radius: 2%;
     padding: 10px;
     text-align: center;
+    background-color: rgb(20, 20, 58);
   }
   .image-box-phone {
     border: 1px solid #ccc;
@@ -45,7 +47,7 @@
 
   
   .whatwedo-paragraph{
-    color: rgb(20, 20, 58);
+    color: white;
   }
   .whatwedo-paragraph-phone{
     color: white;
@@ -258,9 +260,9 @@
     }
   
     .whatwedo-main-text {
-      font-size: 40px;
-      padding-bottom: 30px;
-      padding-top: 30px;
+      font-size: 25px;
+      margin-bottom: 20px;
+      margin-top: 20px;
     }
   
     .image-box {
@@ -301,8 +303,9 @@
     }
 
     .whatwedo-main-text {
-      font-size: 40px;
+      font-size: 30px;
       margin-top: 20px;
+      margin-bottom: 20px;
     }
   
     .image-box {

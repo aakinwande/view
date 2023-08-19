@@ -1,0 +1,225 @@
+.toc{
+}
+
+.blogback{
+    text-decoration: none;
+}
+
+.moreblog-title{
+    padding: 50px;
+    text-align: center;
+    color: rgb(20, 20, 58);
+}
+
+.moreblog-img{
+    align-items: center;
+}
+
+.moreblog-desc{
+
+}
+
+
+
+
+
+
+@media (min-width:280px) {
+  }
+  @media (min-width:350px) and (max-width: 480px) {
+   
+
+    }
+  @media screen and (min-width: 481px) and (max-width: 767px) {
+  }
+  
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+   
+}
+  
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+
+   
+    
+    .blogback{
+        color: rgb(20, 20, 58);
+    }
+
+    
+    .blogback:hover{
+        color: rgb(76, 157, 197);
+    }
+
+    .moreblog-title{
+       font-size:40px;
+       font-weight: bold;
+       text-align: center;
+       
+    }
+
+    .moreblog-icon{
+        padding: 1px 50px 50px 50px ;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .moreblog-img{
+        max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    padding: 10px; /* Center the image horizontally and adjust vertical margin */
+    display: block;
+    }
+
+    .moreblog-desc{
+    padding: 1px 50px 50px 50px ;
+    font-size: 15px;
+    text-align: left;
+    
+    }
+
+    .moreblog-desc::first-letter {
+        font-size: 40px; 
+        color: rgb(20, 20, 58);
+        font-weight: bold;
+    }
+
+    .blog-p{
+        margin: 30px 80px 80px 80px;
+        font-size: 15px;
+        text-align: left;
+        margin-bottom: 90px;
+     }
+
+     .blog-icons{
+        display: flex;
+  align-items: center; /* Vertically align the icons */
+  gap: 10px;
+margin-left: 400px;
+     }
+
+     .blog-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #3b5998;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        transition: background-color 0.2s ease;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      
+      .blog-icon i {
+        line-height: 1;
+      }
+      
+      .blog-icon:hover {
+        background-color: rgb(76, 157, 197); /* Change the background color on hover */
+      }
+      
+      /* Add a subtle scale effect on hover */
+      .blog-icon:hover i {
+        transform: scale(1.1);
+      }
+    
+}
+
+@media screen and  (min-width: 1281px) {
+
+    .toc{
+        
+    }
+    .blogback{
+        color: rgb(20, 20, 58);
+        font-size: 25px;
+    }
+
+    
+    .blogback:hover{
+        color: rgb(76, 157, 197);
+      
+    }
+    
+
+    
+    .moreblog-title {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+     .moreblog-icon{
+        padding: 10px 30px;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 90px;
+     }
+ 
+     .moreblog-img{
+        max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    padding: 10px; /* Reduce padding for smaller screens */
+     /* Center the image horizontally and adjust vertical margin */
+    display: block;
+     }
+ 
+     .moreblog-desc{
+        padding: 10px 30px;
+        font-size: 25px;
+        text-align: left;
+        margin-bottom: 90px;
+     
+     }
+ 
+     .moreblog-desc::first-letter {
+         font-size: 40px; 
+         color: rgb(20, 20, 58);
+         font-weight: bold;
+     }
+
+     .blog-p{
+        margin: 50px 210px 210px 210px;
+        font-size: 25px;
+        text-align: left;
+        margin-bottom: 90px;
+     }
+     .blog-icons{
+        display: flex;
+  align-items: center; /* Vertically align the icons */
+  gap: 10px;
+margin-left: 510px;
+     }
+
+     .blog-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #3b5998;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        transition: background-color 0.2s ease;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      
+      .blog-icon i {
+        line-height: 1;
+      }
+      
+      .blog-icon:hover {
+        background-color: rgb(76, 157, 197); /* Change the background color on hover */
+      }
+      
+      /* Add a subtle scale effect on hover */
+      .blog-icon:hover i {
+        transform: scale(1.1);
+      }
+}

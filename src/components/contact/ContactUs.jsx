@@ -53,16 +53,16 @@ const ContactUs = () => {
         <div class="col">
     <label for="name" className="contact-label">What service of ours do you need</label>
     <select id="services" name="services" class="custom-select">
-    <option value="ghostwriting">Ghostwriting</option>
+    <option value="ghostwriting" selected>Ghostwriting</option>
     <option value="copywriting">Copywriting</option>
-    <option value="marketing" selected>Marketing</option>
+    <option value="marketing" >Marketing</option>
   </select>
   </div>
          
   <div class="col">
     <label for="name" className="contact-label">Have you read KTN? </label>
     <select id="services" name="services" class="custom-select">
-    <option value="yes">Yes</option>
+    <option value="yes" selected>Yes</option>
     <option value="no">No</option>
   </select>
   </div>
@@ -94,7 +94,7 @@ const ContactUs = () => {
           first time, we’re licensed to publicly share the secrets we’ve
           uncovered by interviewing the world’s best sales team leads.{" "}
         </h4>
-        <button className="btn-cta">LET'S MEET</button>
+        <button className="btn-cta">MULTIPLY MY BUSINESS </button>
       </div>
 
       <div class="container-fluid newsletter">
@@ -114,7 +114,7 @@ const ContactUs = () => {
             schemes, businesses acquisitions and mergers. These people can sell
             candy to its owner and KTN+ monthly publication gives you fly
             on-the-wall access to tactics they use globally to multiply their
-            businesses for $12.99/month
+            businesses for <span style={{color: 'green', fontWeight: 'bold'}}>$12.99<span style={{color: 'black', fontWeight: 'lighter'}}>/month</span></span>
           </p>
         </div>
         <div className="row">

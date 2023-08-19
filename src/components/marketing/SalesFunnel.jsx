@@ -1,10 +1,10 @@
 import React from 'react'
-import OurWork from "../home/ourwork/OurWork";
 import Masterpiece from "../home/masterpiece/Masterpiece";
 import Eze from "../../images/testimonialpics/eze.jpg";
 import Rebecca from "../../images/testimonialpics/rebecca.jpg";
 import Ag from "../../images/testimonialpics/ag.jpg";
 import NewsLetter from "../home/subscribenewsletter/NewsLetter";
+import QuestionandBlog from '../home/questionandblog/QuestionandBlog';
 
 const SalesFunnel = () => {
   return (
@@ -37,7 +37,6 @@ The story of your life! You should be too occupied living to worry about telling
         </div>
       </div>
     </div>
-    <OurWork />
     <div class="container">
       <h4 class="testimonial-header">Great People Blow Our Trumpet</h4>
       <div class="row pb-5">
@@ -120,32 +119,17 @@ The story of your life! You should be too occupied living to worry about telling
         </div>
       </div>
     </div>
-    <div class="container-fluid newsletter">
-      <div className="row">
-        <h4 className="newsletter-header">Subscribe to KTN+</h4>
-      </div>
-      <div className="row">
-        <p className="newsletter-text">
-          We’ll make sure your image is recognizable then track your customers
-          to position you right in their faces. If they aren’t set to buy what
-          you’re selling, they’ll willingly market you to their circle. That’s
-          how good we make you look. Your avatar’s network is a treasure trove
-          of potential customers! If “network” is your “net worth”, their
-          network is our homework. we market your brand so it sells itself…
-        </p>
-      </div>
-      <div className="row">
-        <a
-          href="https://calendly.com/kalukalu/30min"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ textDecoration: "none" }}
-        >
-          <button className="newsletter-btn">LET'S MEET</button>
-        </a>
-      </div>
+    <div class="container-fluid cta">
+      <h4 style={{fontSize: '20px'}}> We’ll make sure your image is recognizable then track your customers
+            to position you right in their faces. If they aren’t set to buy what
+            you’re selling, they’ll willingly market you to their circle. That’s
+            how good we make you look. Your avatar’s network is a treasure trove
+            of potential customers! If “network” is your “net worth”, their
+            network is our homework. we market your brand so it sells itself…</h4>
+      <button style={{fontSize: '14px'}} className="btn-cta">LET'S MEET</button>
     </div>
     <Masterpiece />
+    <QuestionandBlog />
     <NewsLetter />
   </>
   )

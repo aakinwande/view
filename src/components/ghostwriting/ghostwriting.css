@@ -1,5 +1,5 @@
 .background-image-ghost {
-  background-image: url('../../images/pages/homepage.jpg'); /* Replace with your image path */
+  background-image: url('../../images/pages/ghostImage.png'); /* Replace with your image path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -214,7 +214,7 @@
   
     .background-image-ghost {
       
-      height: 160vh; /* Adjust as needed */
+      height: 110vh; /* Adjust as needed */
     }
   
     .container-fluid-hero-ghost{
@@ -270,7 +270,7 @@
   
     .background-image-ghost {
       
-      height: 160vh; /* Adjust as needed */
+      height: 100vh; /* Adjust as needed */
     }
   
     .container-fluid-hero-ghost{
