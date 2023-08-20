@@ -342,7 +342,7 @@
        .vertical-line {
         width: 5px; /* Set width to 0 so only the border is visible */
         height: 35%; /* Make the line span the entire height of its container */
-        border-left: 0.5px solid black; /* Set the thickness and color of the line */
+        border-left: 3px solid black; /* Set the thickness and color of the line */
         position: absolute; /* Position the line absolutely within its parent */
         left: 50%; /* Position the line halfway across the parent */
         transform: translateX(-50%);

@@ -6,7 +6,7 @@ const Cta = () => {
     <div class="container-fluid cta">
       <h4>We’re ready to meet if you have books in you, your business deserves exponential growth or you 
 have a brand the world must know. </h4>
-      <button className="btn-cta">LET'S MEET</button>
+      <button style={{fontSize: '24px', paddingRight: '82px', paddingLeft: '82px' }} className="btn-cta">LET'S MEET</button>
     </div>
   );
 };

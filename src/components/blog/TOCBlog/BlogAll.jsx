@@ -26,7 +26,7 @@ const BlogAll = (props) => {
     <><div className="container toc">
       <a href="/blog" className="blogback">
       <p>
-        <i class="fa-solid fa-arrow-left-long"></i> BACK TO BLOG
+        <i class="fa-solid fa-arrow-left-long"></i> BACK TO KTN
       </p>
     </a>
     <h4 className="moreblog-title">{props.title}</h4><p className="moreblog-icon">Share

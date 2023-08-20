@@ -12,6 +12,9 @@
     height: auto;
   }
 
+  .blog-img-bb:hover{
+    transform: translateY(-10px);
+  }
 
   @media (min-width:280px) {
     .background-image-blog {
@@ -148,7 +151,7 @@
 
   .blog-select {
     display: flex;
-    padding: 20px 20px 20px 10px;
+    padding: 20px 40px 20px 10px;
     border: 3px solid rgb(20, 20, 58);
     border-radius: 7px;
     font-size: 16px;
@@ -158,10 +161,11 @@
   }
 
   .blog-value  {
-    font-size: 10px;
+    font-size: 16px;
     color: rgb(20, 20, 58);
     background-color: rgb(76, 157, 197);
   }
+ 
   .blog-drop{
     position: relative;
     top: 50px;
@@ -184,7 +188,7 @@
     .blog-text{
         text-align: center;
         padding: 50px 50px 1px 50px;
-        font-size: 15px;
+        font-size: 16px;
       }
 
       .blog-container{

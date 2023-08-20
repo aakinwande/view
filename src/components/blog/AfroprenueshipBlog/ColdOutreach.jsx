@@ -13,13 +13,13 @@ const ColdOutreach = () => {
 
       <p className="blog-p">
         {" "}
-        CHATGPT GAVE SHALLOW ADVICE WHEN ASKED “HOW TO COLD OUTREACH” …LISTEN
+        CHATGPT GAVE SHALLOW ADVICE WHEN ASKED “HOW TO COLD OUTREACH” …LISTEN<br />
         UP! Show potential clients what you’ll do for them they don’t want to
-        hear it.<br /><br /> HERE’S COLD OUTREACH SCRIPTS FOR LINKEDIN: “Hey (their name),
+        hear it.<br /><br /> HERE’S COLD OUTREACH SCRIPTS FOR LINKEDIN: <br />“Hey (their name),
         I’ve studied the content you’ve been putting out to promote your (X)
         here’s 10 original posts I’ve created in your brand’s voice that’ll
         speak to your high-ticket customers I’ll appreciate your thoughts on
-        them and please feel free to use them if you’d like” HERE’s ANOTHER:
+        them and please feel free to use them if you’d like” <br /><br />HERE’s ANOTHER:
         “Hey (their name), I’ve seen your (X) product and I’ve created these (X)
         to supercharge your marketing campaign… I’d love to get your thoughts
         and here’s a 2-page pdf spelling out more sales conversion ideas you

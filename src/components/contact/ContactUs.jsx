@@ -1,5 +1,6 @@
 import React from "react";
 import "./contact.css";
+import NewsLetter from "../home/subscribenewsletter/NewsLetter";
 
 const ContactUs = () => {
   return (
@@ -88,7 +89,7 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-      <div class="container-fluid cta">
+      <div class="container-fluid cta" style={{marginBottom: '150px'}}>
         <h4>
           We’re legally forbidden to share proprietary information, but for the
           first time, we’re licensed to publicly share the secrets we’ve
@@ -97,30 +98,7 @@ const ContactUs = () => {
         <button className="btn-cta">MULTIPLY MY BUSINESS </button>
       </div>
 
-      <div class="container-fluid newsletter">
-        <div className="row">
-          <h4 className="newsletter-header">Subscribe to KTN+</h4>
-        </div>
-        <div className="row">
-          <p className="newsletter-text">
-            We’re legally forbidden to share proprietary information, but for
-            the first time, we’re licensed to publicly share the secrets we’ve
-            uncovered by interviewing the world’s best sales team leads.
-          </p>
-        </div>
-        <div className="row">
-          <p className="newsletter-text">
-            They’ve closed millions of dollars’ worth of pitches, deals,
-            schemes, businesses acquisitions and mergers. These people can sell
-            candy to its owner and KTN+ monthly publication gives you fly
-            on-the-wall access to tactics they use globally to multiply their
-            businesses for <span style={{color: 'green', fontWeight: 'bold'}}>$12.99<span style={{color: 'black', fontWeight: 'lighter'}}>/month</span></span>
-          </p>
-        </div>
-        <div className="row">
-          <button className="newsletter-btn">SUBSCRIBE</button>
-        </div>
-      </div>
+      <NewsLetter />
     </>
   );
 };

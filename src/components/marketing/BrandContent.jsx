@@ -126,7 +126,7 @@ const BrandContent = () => {
             how good we make you look. Your avatar’s network is a treasure trove
             of potential customers! If “network” is your “net worth”, their
             network is our homework. we market your brand so it sells itself…</h4>
-      <button style={{fontSize: '14px'}} className="btn-cta">LET'S MEET</button>
+      <button style={{fontSize: '14px', paddingRight: '82px', paddingLeft: '82px'}} className="btn-cta">LET'S MEET</button>
     </div>
       <Masterpiece />
       <QuestionandBlog />

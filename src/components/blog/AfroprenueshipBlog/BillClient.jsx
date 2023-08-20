@@ -1,28 +1,38 @@
-import React from 'react'
-import BlogAll from '../TOCBlog/BlogAll'
+import React from "react";
+import BlogAll from "../TOCBlog/BlogAll";
 import TFC from "../../../images/blogpics/afroprenueship/TFC.jpg";
-
-
 
 const BillClient = () => {
   return (
     <div>
-       <BlogAll 
-      title="BUILD TRACTION IN YOUR BUSINESS BEFORE NICHING DOWN"
-      img={TFC}
-      desc="Don’t niche away your profit! 
-      “Niching-down” is trumpeted for good reason; 
-      But don’t overly simplify your offer untill your prospect market resembles endangered species… 
-      Target a market with flourishing numbers. Offer solutions to their mutual needs. 
-      Especially as you’re trying to build traction… 
-      You’ll hardly uncover all you can offer stomping unto the scene laser-niched down without 
-      exploration. 
-      The flip-side is you can bill more if your prospective market has exclusivity like endangered species… 
-      BUT 
-      Starting out, you wouldn’t have amassed the liver nor value proposition to command premium pay."
+      <BlogAll
+        title="YOU CAN BILL CLIENTS WHATEVER YOU WANT "
+        img={TFC}
+        desc=""
       />
+      <p className="blog-p">
+        Give so much value they feel criminal not paying your worth! <br />
+        No good deed goes unpunished these days… <br />
+        <br />
+        If they turn a blind eye (keen to exploit you) Laud your efforts so they
+        salute the diamond in their rough. <br />
+        Great work shouldn’t be rewarded by compliments alone …Agree? Or Nah{" "}
+        <br />
+        <br />
+        Ensure your value to clients compounds over time so you compel great
+        pay. Be a multi-dimensional utility and highlight your value if your
+        efforts go maliciously unacknowledged. <br />
+        <br />
+        The commitment to deliver so much value it chills their spine can
+        backfire if that client is just sinister; But keep dishing out value the
+        world can verify as excellent… <br />
+        <br />
+        That way you stand on solid ground when you demand better. As a service
+        provider, you can earn life-long relationships more valuable than
+        Bitcoin but for survival's sake secure your coins along the way!
+      </p>
     </div>
-  )
-}
+  );
+};
 
-export default BillClient
+export default BillClient;

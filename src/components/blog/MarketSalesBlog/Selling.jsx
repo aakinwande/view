@@ -14,7 +14,7 @@ const Selling = () => {
         Don’t sell alcohol to people in remission to meet sales quotas, you’ll
         feel yuck!
         <br /><br /> Observe keyboards when crafting marketing narratives- “yoU”
-        comes before “I” (it works best this way) <br /><br />
+        comes before “I” (it works best this way) <br />
         Care for clients before
         yourself so marketing won’t leave a sour aftertaste. <br /><br />
         IF MARKETING FEELS

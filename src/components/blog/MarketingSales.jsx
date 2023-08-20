@@ -11,65 +11,54 @@ const  MarketingSales = () => {
   return (
     <>
     <div class="card">
-      <img src={CBE} class="card-img-top" alt="..." />
+      <img src={CBE} class="card-img-top blog-img-bb"  alt="..." />
       <div class="card-body">
+      <p className="card-text">Date: June 21, 2023 </p>
         <h5 class="card-title"> HOW TO INCREASE YOUR PERCEIVED VALUE  </h5>
-        <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </p>
+       
         <a href="/marketingsales-one" class="btn btn-primary">
           Read more
         </a>
       </div>
     </div>
     <div class="card">
-      <img src={AI} class="card-img-top" alt="..." />
+      <img src={AI} class="card-img-top blog-img-bb"  alt="..." />
       <div class="card-body">
+      <p className="card-text">Date: June 21, 2023 </p>
         <h5 class="card-title">THE COLD OUTREACH STRATEGY MAKING US MONEY </h5>
-        <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </p>
+     
         <a href="/marketingsales-two" class="btn btn-primary">
           Read more
         </a>
       </div>
     </div>
     <div class="card">
-      <img src={WAH} class="card-img-top" alt="..." />
+      <img src={WAH} class="card-img-top blog-img-bb"  alt="..." />
       <div class="card-body">
+      <p className="card-text">Date: June 21, 2023 </p>
         <h5 class="card-title">BEING OF UTILITY MAKES YOU A WHORE?</h5>
-        <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </p>
+      
         <a href="/marketingsales-three" class="btn btn-primary">
           Read more
         </a>
       </div>
     </div>
     <div class="card">
-      <img src={LRAC} class="card-img-top" alt="..." />
+      <img src={LRAC} class="card-img-top blog-img-bb"  alt="..." />
       <div class="card-body">
+      <p className="card-text">Date: June 21, 2023 </p>
         <h5 class="card-title">HOW TO LAND AND RETAIN ALL CLIENTS </h5>
-        <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </p>
+     
         <a href="/marketingsales-four" class="btn btn-primary">
           Read more
         </a>
       </div>
     </div>
     <div class="card">
-      <img src={NCSA} class="card-img-top" alt="..." />
+      <img src={NCSA} class="card-img-top blog-img-bb"  alt="..." />
       <div class="card-body">
+      <p className="card-text">Date: June 21, 2023 </p>
         <h5 class="card-title"> IF YOU HATE THE FEELING OF SELLING READ THIS</h5>
-        <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </p>
         <a href="/marketingsales-five" class="btn btn-primary">
           Read more
         </a>

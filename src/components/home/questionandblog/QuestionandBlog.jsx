@@ -7,11 +7,11 @@ const QuestionandBlog = () => {
       <div className="row">
         <div className="col question-col">
             <div className="row">
-            <h4 className="question-location">WHAT'S ON YOUR MIND?</h4>
+            <h4 className="question-location">What's on your mind?</h4>
             </div>
             <div className="row">
             <a href="/faq">
-            <button className="question-btn">SEE ANSWERS TO FAQ</button>
+            <button className="question-btn">See Answer to FAQ</button>
             </a>
             </div>
         </div>
@@ -22,7 +22,7 @@ const QuestionandBlog = () => {
             </div>
             <div className="row">
             <a href="/blog">
-            <button className="blog-btn">KICK THE NARRATIVE</button>
+            <button className="blog-btn">Read more...</button>
             </a>
             </div>
         </div>

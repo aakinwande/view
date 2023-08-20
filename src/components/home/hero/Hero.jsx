@@ -5,6 +5,8 @@ import Parth1 from "../../../images/parthners/kamwe.png";
 import Parth2 from "../../../images/parthners/largo.png";
 import Parth3 from "../../../images/parthners/rjen.png";
 import Parth4 from "../../../images/parthners/wealthywomen.png";
+import Parth5 from "../../../images/parthners/empireconcepts.svg";
+import Parth6 from "../../../images/parthners/dewtech.svg";
 
 const Hero = () => {
   return (
@@ -47,7 +49,7 @@ const Hero = () => {
             </div>
 
             <div className="row">
-              <p className="partners">We proudly associate with </p>
+              <p className="partners">We Proudly Associate With </p>
               <div className="partners-hero-img">
                 <a href="https://kamwe.tech/"   target="_blank"
                   rel="noopener noreferrer">
@@ -64,6 +66,12 @@ const Hero = () => {
                 <a href="https://wealthywisewoman.com/"   target="_blank"
                   rel="noopener noreferrer">
                   <img src={Parth4} alt="" />
+                </a>
+                <a href="/">
+                  <img src={Parth5} alt="" />
+                </a>
+                <a href="/" >
+                  <img src={Parth6} alt="" />
                 </a>
               </div>
             </div>

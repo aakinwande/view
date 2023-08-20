@@ -1,5 +1,5 @@
 .background-image {
-  background-image: url('../../../images/pages/hero.jpg'); /* Replace with your image path */
+  background-image: url('../../../images/pages/HomePicture.png'); /* Replace with your image path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -274,7 +274,7 @@ margin: 5px;
 
   .background-image {
     
-    height: 160vh; /* Adjust as needed */
+    height: 200vh; /* Adjust as needed */
   }
 
   .container-fluid-hero{
@@ -283,14 +283,14 @@ margin: 5px;
    .hero-header {
     padding: 10px;
     font-size: 70px;
-    margin: 30px 40px -10px 40px;
+    margin: 100px 40px 20px 40px;
     width: 70%;
   }
 
   .hero-desc{
-    padding: 30px  30px  30px  50px;
+    padding: 30px  30px  50px  50px;
     font-size: 25px;
-    width: 80%;
+    width: 75%;
   }
 
   .btn-crow{
@@ -327,7 +327,7 @@ margin: 5px;
   .partners{
     font-size: 20px;
     text-align: center;
-    margin-top: 35px;
+    margin-top: 250px;
    
   }
 
@@ -354,12 +354,12 @@ margin: 5px;
     font-size: 70px;
     width: 70%;
     margin-top: 30px;
-    margin: 30px 40px -15px 25px;
+    margin: 100px 40px 50px 25px;
   }
 
   .hero-desc{
     padding: 25px;
-    margin: 30px;
+    margin: 30px  30px  50px  30px;
     font-size: 25px;
     width: 80%;
   }
@@ -374,6 +374,7 @@ margin: 5px;
     padding: 20px 50px;
     border-radius: 4px;
     margin-top: 1px;
+    margin-bottom: 400px;
   }
   
   .btn-hero-two {
@@ -397,7 +398,7 @@ margin: 5px;
   .partners{
     font-size: 20px;
     text-align: center;
-    margin-top: 35px;
+    margin-top: -130px;
    
   }
 

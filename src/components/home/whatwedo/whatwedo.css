@@ -1,5 +1,5 @@
 .whatwedo {
-    background-color: rgb(76, 157, 197); /* Set the background color */
+    background-color: rgb(20, 20, 58);
     padding: 20px; /* Add padding around the content */
     text-align: center; /* Center the content horizontally */
 }
@@ -33,7 +33,7 @@
     border-radius: 2%;
     padding: 10px;
     text-align: center;
-    background-color: rgb(20, 20, 58);
+    background-color: rgb(76, 157, 197);
   }
   .image-box-phone {
     border: 1px solid #ccc;
@@ -54,7 +54,7 @@
   }
 
   .whatwedo-btn{
-    background-color: rgb(20, 20, 58);
+    background-color: rgb(76, 157, 197);
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -245,6 +245,7 @@
 
     .whatwedo-header{
       font-size: 40px;
+      color: white;
   }
   
     .test {
@@ -263,6 +264,7 @@
       font-size: 25px;
       margin-bottom: 20px;
       margin-top: 20px;
+      color: white;
     }
   
     .image-box {
@@ -288,7 +290,7 @@
       margin-bottom: 30px;
     }
     .whatwedo-btn:hover {
-     background-color: rgb(36, 124, 168);
+     color: black;
     }
     .whatwedo-phone{
       display: none;

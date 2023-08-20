@@ -1,8 +1,10 @@
-import React, { useState } from "react";
-import "./faq.css";
+// FAQ.js
+
+import React, { useState } from 'react';
+import './faq.css';
 
 const AskedQuestion = () => {
-  const faqData = [
+  const [faqData, setFaqData] = useState([
     {
       question: "How does the ghostwriting process work at your company? ",
       answer: "In-depth collaboration. We begin with a detailed consultation to understand your goals and voice. Our writers then create drafts, incorporating your feedback at every step. This iterative approach ensures the final content aligns perfectly with your vision. ",
@@ -35,37 +37,37 @@ const AskedQuestion = () => {
       question: "What is the typical turnaround time for ghostwritten content? ",
       answer: "Turnaround times vary based on the complexity and length of the content. We prioritize delivering quality work within agreed-upon timelines. During our initial consultation, we'll provide a clear estimate of the time required for your project. ",
     },
-  ];
+    // Add more question-answer pairs
+  ]);
+console.log(setFaqData)
+  const [activeIndex, setActiveIndex] = useState(null);
 
-  const Question = ({ question, answer }) => {
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggleAnswer = () => {
-      setIsOpen(!isOpen);
-    };
-
-    return (
-      <div
-        className={`question ${isOpen ? "open" : ""}`}
-        onClick={toggleAnswer}
-      >
-        <div className="question-header">
-          <h2>{question}</h2>
-          <span className={`icon ${isOpen ? "open" : ""}`}>&#9660;</span>
-        </div>
-        {isOpen && <p className="answer">{answer}</p>}
-      </div>
-    );
+  const handleAccordionClick = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
   };
 
   return (
-    <div className="faq-page">
-      <h1>Frequently Asked Questions</h1>
-      <div className="faq-list">
-        {faqData.map((faq, index) => (
-          <Question key={index} question={faq.question} answer={faq.answer} />
-        ))}
-      </div>
+    <div className="faq-container">
+      <h4 className='faq-head'>Frequently Asked Questions</h4>
+      <p className='faq-desc'>Ghostwriting, Copywriting, and Marketing Services
+</p>
+      {faqData.map((item, index) => (
+        <div
+          key={index}
+          className={`faq-item ${activeIndex === index ? 'active' : ''}`}
+          onClick={() => handleAccordionClick(index)}
+        >
+          <div className="faq-question">
+            {item.question}
+            <span className={`accordion-icon ${activeIndex === index ? 'expanded' : ''}`}>
+              {activeIndex === index ? '-' : '+'}
+            </span>
+          </div>
+          <div className={`faq-answer ${activeIndex === index ? 'visible' : ''}`}>
+            {item.answer}
+          </div>
+        </div>
+      ))}
     </div>
   );
 };

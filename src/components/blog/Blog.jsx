@@ -4,9 +4,9 @@ import ThoughtsToChop from "./ThoughtsToChop";
 import MarketingSales from "./MarketingSales";
 import Afropreneurship from "./Afropreneurship";
 import NewsLetter from "../home/subscribenewsletter/NewsLetter";
-import QuestionandBlog from "../home/questionandblog/QuestionandBlog";
+import AllCategories from "./allcategories/AllCategories";
 const Blog = () => {
-  const [selectedPage, setSelectedPage] = useState("Thoughts to chop");
+  const [selectedPage, setSelectedPage] = useState("All Categories");
 
   const handlePageChange = (event) => {
     setSelectedPage(event.target.value);
@@ -73,6 +73,9 @@ const Blog = () => {
               </div>
               <div class="col-3 blog-drop">
                 <select className="blog-select" onChange={handlePageChange}>
+                <option className="blog-value" value="All Categories" selected> 
+                    All Categories
+                  </option>
                   <option className="blog-value" value="Thoughts to chop">
                     Thoughts to chop
                   </option>
@@ -86,6 +89,7 @@ const Blog = () => {
               </div>
 
               <div className="row">
+              {selectedPage === "All Categories" && <AllCategories />}
                 {selectedPage === "Thoughts to chop" && <ThoughtsToChop />}
                 {selectedPage === "Marketing and sales" && <MarketingSales />}
                 {selectedPage === "Afropreneurship" && <Afropreneurship />}
@@ -94,7 +98,6 @@ const Blog = () => {
           </div>
         </div>
       </div>
-      <QuestionandBlog />
       <NewsLetter />
     </>
   );

@@ -5,7 +5,7 @@ import Home from './components/home/Home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MyNavbar from '../src/components/navbar/MyNavbar'
 import Footer from './components/footer/Footer';
-import Services from '../src/components/services/Services'
+// import Services from '../src/components/services/Services'
 import Blog from '../src/components/blog/Blog'
 import ContactUs from '../src/components/contact/ContactUs'
 import Ghostwriting from '../src/components/ghostwriting/Ghostwriting'
@@ -52,7 +52,7 @@ function App() {
     <MyNavbar />
     <Routes>
       <Route path='/' exact element={<Home />} />
-      <Route path='/services' element={<Services/>} />
+      {/* <Route path='/services' element={<Services/>} /> */}
       <Route path='/blog' element={<Blog/>} />
       <Route path='/contact-us' element={<ContactUs/>} />
       <Route path='/ghostwriting' element={<Ghostwriting/>} />
@@ -72,8 +72,8 @@ function App() {
       <Route path='/sales-call-scripts' element={<SalesCall/>} />
       <Route path='/website-content' element={<WebsiteContent/>} />
       <Route path='/marketing' element={<Marketing/>} />
-      <Route path='/brand-content-strategy' element={<BrandContent/>} />
-      <Route path='/personality-public-image' element={<PersonalPublicImage/>} />
+      <Route path='/brand-content' element={<BrandContent/>} />
+      <Route path='/personal-public-image' element={<PersonalPublicImage/>} />
       <Route path='/video-content-editing' element={<VideoContentEditing/>} />
       <Route path='/authority-building' element={< AuthorityBuilding />} />
       <Route path='/consultation' element={<Consultation/>} />

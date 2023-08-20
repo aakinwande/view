@@ -12,25 +12,25 @@ const Clients = () => {
       desc=" "
       />
        <p className="blog-p">
-       Marketing isn’t presenting the full picture; it’s turning heads and hinting full picture! 
+       Marketing isn’t presenting the full picture; it’s turning heads and hinting full picture! <br /><br />
       Start observing the picture they form then affirm their imaginations with complimentary products, 
       brands, or services. <br /><br />
-      It’s like Leonardo DiCaprio’s “inception”- Your goal is: <br /><br />
+      It’s like Leonardo DiCaprio’s “inception”- Your goal is: <br />
       MAKE THEM REACH CONCLUSIONS ON THEIR OWN 
-      Otherwise, they feel cheated or coerced to purchase. 
+      Otherwise, they feel cheated or coerced to purchase. <br /><br />
       When #Apple sells iPhones (**with a million different capabilities) they market features not the whole 
-      product.
+      product.<br /><br />
       They create camera-quality ads and hint editing power. 
       When you purchase, you get the camera, speakers, screen resolution, processor speed, multitasking 
       capabilities, security features etc. <br /><br />
-      In a market with high concern for Cyber security, guess which feature gets the higher ad budget. 
+      In a market with high concern for Cyber security, guess which feature gets the higher ad budget. <br /><br />
       …Listen to your audience. Deliver what their mind makes your product out to be. 
-      You’re recording sales anyway! 
-      Whether they’ve purchased to use one feature or all, YOU SOLD. 
-      HERE’s THE KICKER <br />
+      You’re recording sales anyway! <br /><br />
+      Whether they’ve purchased to use one feature or all, YOU SOLD. <br /><br />
+      HERE’s THE KICKER <br /><br />
       You’ve not used your iPhone for all it can deliver I can bet on that; Sometimes just finding out stuff it 
-      can do justifies your purchase months down the line! <br />
-      Let your brand/product be a gift that keeps on giving. <br />
+      can do justifies your purchase months down the line! <br /><br />
+      Let your brand/product be a gift that keeps on giving. <br /><br />
       You DON’T have to say all you can deliver. Market one “best-seller” feature and when you reel them 
       in, JUST KEEP GIVING! <br /><br />
       1.Be a no-brainer deal (multi-dimensional utility) <br /><br />

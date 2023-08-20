@@ -1,7 +1,14 @@
 .newsletter {
-    background-color: rgb(76, 157, 197); /* Set the background color */
+    background-color: rgb(20, 20, 58);/* Set the background color */
     padding: 40px; /* Add padding around the content */
-    text-align: center; /* Center the content horizontally */
+    text-align: center; 
+    /* Center the content horizontally */
+}
+
+.newsletter-texting{
+    background-color: rgb(76, 157, 197);/* Set the background color */
+    padding: 40px; /* Add padding around the content */
+    
 }
 
 .newsletter-text {
@@ -10,8 +17,15 @@
     color: white;
 }
 
+.newsTexts{
+    background-color: rgb(76, 157, 197);
+    padding: 40px; /* Add padding around the content */
+    text-align: center; 
+ 
+}
+
 .newsletter-btn{
-    background-color: rgb(20, 20, 58);
+    background-color: rgb(76, 157, 197);
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -112,13 +126,15 @@
   
   @media screen and (min-width: 1025px) and (max-width: 1280px) {
     .newsletter-header{
-        padding: 20px;
         color: white;
-        font-size: 40px;
 
     }
+
+    .newsTexts{
+        margin-bottom: 80px;
+}
     .newsletter-text {
-        padding-bottom: 28px;
+        padding: 15px;
         font-size: 15px;
     }
 
@@ -136,9 +152,9 @@
 
       
       .ktnplus{
-        width: 200;
-        height: 900px;
-        margin-top: -390px;
+        width: 500px;
+        height: 400px;
+        margin-top: -350px;
         margin-bottom: -350px;
       }
   }
@@ -156,6 +172,10 @@
         font-size: 22px;
     }
 
+    .newsTexts{
+            margin-bottom: 80px;
+    }
+
     .ktn-span{
         font-weight: bold;
         color: rgb(20, 20, 58);
@@ -166,12 +186,13 @@
         margin: 0 auto;
     display: block;
     margin-bottom: 30px;
+    background-color: rgb(76, 157, 197);
       } 
 
       .ktnplus{
-        width: 900px;
-        height: 900px;
-        margin-top: -380px;
+        width: 500px;
+        height: 500px;
+        margin-top: -370px;
         margin-bottom: -350px;
       }
   }

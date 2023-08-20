@@ -37,7 +37,7 @@ const Meditation = () => {
         9. Spending life COMPLAINING leads to jagged self-worth and quiet desperation; 
         Embracing RESPONSIBILITY despite difficulties leads to impervious liberty of mind and fortitude of 
         spirit even in imperfect conditions and outcomes. <br /><br />
-        10. Am I crazy, I should be ASLEEP. <br /><br />
+        10. Am I crazy, I should be ASLEEP. <br />
         What crossed your mind the last time you meditated?
         </p>
     </div>
