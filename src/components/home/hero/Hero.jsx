@@ -55,23 +55,23 @@ const Hero = () => {
                   rel="noopener noreferrer">
                   <img src={Parth1} alt="" />
                 </a>
-                <a href="https://largofinancialservices.com/"   target="_blank"
-                  rel="noopener noreferrer">
-                  <img src={Parth2} alt="" />
-                </a>
                 <a href="https://rjen.co.uk/" target="_blank"
                   rel="noopener noreferrer">
                   <img src={Parth3} alt="" />
+                </a>
+                <a href="https://largofinancialservices.com/"   target="_blank"
+                  rel="noopener noreferrer">
+                  <img src={Parth2} alt="" />
                 </a>
                 <a href="https://wealthywisewoman.com/"   target="_blank"
                   rel="noopener noreferrer">
                   <img src={Parth4} alt="" />
                 </a>
-                <a href="/">
-                  <img src={Parth5} alt="" />
-                </a>
                 <a href="/" >
                   <img src={Parth6} alt="" />
+                </a>
+                <a href="/">
+                  <img src={Parth5} alt="" />
                 </a>
               </div>
             </div>

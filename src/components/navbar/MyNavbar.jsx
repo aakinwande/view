@@ -36,15 +36,15 @@ const MyNavbar = () => {
         />
       </Navbar.Brand>
       <Navbar.Toggle
-        aria-controls="responsive-navbar-nav"
-        className={
-          expanded ? "navbar-toggler-custom active" : "navbar-toggler-custom"
-        }
-      >
-        <span className="navbar-toggler-icon"></span>
-        <span className="close-icon">×</span>
-      </Navbar.Toggle>
-      <Navbar.Collapse className="all-navbar" id="responsive-navbar-nav">
+      className={
+        expanded ? "navbar-toggler-custom active" : "navbar-toggler-custom"
+      }
+      onClick={handleToggle} // Call the handleToggle function on click
+    >
+      {/* Hamburger icon */}
+      <i className={`fa-solid ${expanded ? "fa-x" : "fa-bars"} fa-lg flip-icon`}></i>
+    </Navbar.Toggle>
+      <Navbar.Collapse className="all-navbar">
         <Nav className="mr-auto">
           <Nav.Link className="navbar-items" href="/">HOME</Nav.Link>
           <NavDropdown className="navbar-items" title="SERVICES" id="collapsible-nav-dropdown">

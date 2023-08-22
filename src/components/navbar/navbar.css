@@ -71,97 +71,78 @@
 /* Adjustments for Mobile Devices */
 @media (max-width: 280px) {
   .navbar {
-    margin-bottom: 10px;
-    margin-right: 3px;
+    margin-bottom: -1px;
+  
   }
-  .navbar-brand img {
-    max-width: 50%;
+  .navbar-toggler-custom {
+    background-color: rgb(20, 20, 58);
+    color: white;
+    font-size: 10px; /* Adjust the font size as needed */
+    padding: 10px;
+    margin-right: 15px;
   }
   
-  .navbar-expand-lg .navbar-toggler {
-    color: white;
-    border-color: white;
-  }
-
   .navbar-brand img {
-    width: 300px;
-  }
-  .navbar-items{
-    font-size: 20px;
-  }
-  .navbar-container{
-    background-image: url('../../images/pages/hero.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right top -6px;
-    background-attachment: scroll;
-    height: 80px; 
-    display: flex;
-    justify-content: space-between; 
-    font-size: 2.2rem;
-    position: sticky; 
-    top: 0; 
-    z-index: 100; 
+    width: 155px;
+    position: relative;
+    bottom: 5px;
   }
 
-  .all-navbar{
-    display: flex;
-    justify-content:space-between;
-    margin-right: 10px;
-    background-color: rgb(20, 20, 58);
-    margin-top: -13px;
-  }
-
-  .navbar-items{
-    margin-left: 80px;
-    margin-bottom: 40px;
+  /* Navbar Items */
+  
+  .navbar-items {
+    margin-left: 3px;
     margin-top: 30px;
+    align-items: center;
     text-align: center;
-    color: white;
+    font-size: 15px;
+    padding: 5px 10px;
     
   }
-  
 
-  /* .nav-link-with-bg { 
-    width: 80px; 
-    height: 80px;
-    display: flex; 
-    flex-direction: column;
-  }  */
-  
-.close-icon {
-  display: none;
-  font-size: 34px;
-  font-weight: bold;
-  margin-right: 20px;
-  color: red; 
-  text-align: center;/* Set the color to red */
-}
+  .navbar-items[href]::after {
+    content: none;
+  }
 
-.services-dropdown-content {
-  background-color: rgb(20, 20, 58);
-  width: 600;
-  height: 340px;
-  position: absolute;
-  margin-top: -7px;
-  margin-left: -260px;
-   }
- 
-   .service-drophead{
-     color: rgb(76, 157, 197);
-     font-weight: bold;
-     margin: 20px;
-   }
- 
-   .service-dropdetails{
-     margin-left: 20px;
-     color: white;
-   }
- 
-   .service-dropdetails:hover{
-     color: rgb(76, 157, 197);
-     background-color: transparent
-   }
+  .services-dropdown-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+  
+    z-index: 1;
+    align-items: center;
+  }
+
+  .service-section {
+
+  }
+
+  .service-drophead,
+  .service-dropdetails {
+    display: block;
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .service-drophead {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 12px;
+  }
+
+  .service-dropdetails:hover {
+    background-color: rgb(76, 157, 197);
+  }
+
+  
 }
 
 @media (min-width:350px) and (max-width: 480px) {
@@ -169,81 +150,77 @@
     margin-bottom: -1px;
   
   }
-
-  .navbar-brand img {
-    width: 280px;
-    position: relative;
-    bottom: 10px;
-    right: 15px;
-  }
-
-  .navbar-container .services-dropdown-content {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(20, 20, 58); /* Adjust the background color as needed */
-    border: 1px solid #ccc;
-    padding: 10px;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  .navbar-toggler-custom {
+    background-color: rgb(20, 20, 58);
     color: white;
-  }
-
-  .navbar-container .services-dropdown-content .service-section {
-    margin-bottom: 10px;
-    color: white;
-  }
-
-  .navbar-container .services-dropdown-content .service-drophead {
-    font-weight: bold;
-    padding: 5px 0;
-    color: rgb(76, 157, 197);
-  }
-  .navbar-container .services-dropdown-content .service-dropdetails {
-    padding: 1px 0;
-    height: 25px;
-    background-color: none;
-    color: white; /* Adjust the color as needed */
-  }
-   
-   .navbar-items{
-    margin-left: 3px;
-    margin-bottom: 60px;
-    align-items: center;
-    text-align: center;
+    font-size: 24px; /* Adjust the font size as needed */
+    padding: 15px;
+    margin-right: 15px;
   }
   
-.close-icon {
-  display: none;
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-  color: red; 
-  text-align: center;
-}
+  .navbar-brand img {
+    width: 295px;
+    position: relative;
+    bottom: 5px;
+    right: 20px;
+  }
 
+  /* Navbar Items */
+  
+  .navbar-items {
+    margin-left: 3px;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px 10px;
+    
+  }
 
-.social-icons-container {
-  margin-left: -105px; 
-  margin-top: 30px;
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  margin-left: 20px;
-}
-.nav-link-with-bg-footer {
-  background-color: rgb(20, 20, 58); /* Background color */
-  padding: 10px; /* Adjust padding as needed */
-  border-radius: 80%; /* Rounded background */
-  margin-right: 20px; /* Add spacing between links */
-  transition: background-color 0.3s ease; /* Transition effect */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  .navbar-items[href]::after {
+    content: none;
+  }
+
+  .services-dropdown-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+  
+    z-index: 1;
+    align-items: center;
+  }
+
+  .service-section {
+
+  }
+
+  .service-drophead,
+  .service-dropdetails {
+    display: block;
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .service-drophead {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 12px;
+  }
+
+  .service-dropdetails:hover {
+    background-color: rgb(76, 157, 197);
+  }
+
+  
+
 }
 
 @media (min-width:481px) and (max-width: 767px) {
@@ -417,8 +394,8 @@
     margin-left: 10px;
   }
   .navbar-items{
-    margin-left: 30px;
-    font-size: 16px;
+    margin-left: 12px;
+    font-size: 18px;
   }
   .navbar-container{
     background-image: url('../../images/pages/hero.jpg');
@@ -479,8 +456,7 @@
   }
   
 }
-
-@media screen and  (min-width: 1281px) {
+@media screen and (min-width: 1281px) and (max-width: 1442px) {
   .navbar {
     margin-bottom: -2px;
   
@@ -489,7 +465,9 @@
     width: 400px;
   }
   .navbar-items{
-    font-size: 20px;
+    font-size: 17px;
+    margin-left: 18px;
+  
   }
   .navbar-container{
     background-image: url('../../images/pages/hero.jpg');
@@ -512,13 +490,89 @@
     margin-right: 20px;
   }
 
-  .navbar-items{
-    margin-left: 50px;
-  }
 
   .nav-link-with-bg { /* Horizontally center the content */
-    width: 40px; /* Adjust the width and height for your circular link */
-    height: 40px;
+    width: 50px; /* Adjust the width and height for your circular link */
+    height: 50px;
+    font-size: 90px;
+  }
+
+  .social-icon{
+    font-size: 80px;
+  }
+
+  .services-dropdown-content {
+    background-color: rgb(20, 20, 58);
+    width: 600;
+    height: 380px;
+    position: absolute;
+    margin-top: -7px;
+    margin-left: -260px;
+     }
+   
+     .service-drophead{
+       color: rgb(76, 157, 197);
+       font-weight: bold;
+       margin: 20px;
+     }
+     .service-drophead:hover{
+      color: white;
+      background-color: transparent
+    }
+   
+     .service-dropdetails{
+       margin-left: 20px;
+       color: white;
+     }
+   
+     .service-dropdetails:hover{
+       color: rgb(76, 157, 197);
+       background-color: transparent
+     }
+}
+@media screen and  (min-width: 1443px) {
+  .navbar {
+    margin-bottom: -2px;
+  
+  }   
+  .navbar-brand img {
+    width: 400px;
+  }
+  .navbar-items{
+    font-size: 20px;
+    margin-left: 40px;
+  }
+  .navbar-container{
+    background-image: url('../../images/pages/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top -6px;
+    background-attachment: scroll;
+    height: 80px; 
+    display: flex;
+    justify-content: space-between; 
+    font-size: 2.2rem;
+    position: sticky; 
+    top: 0; 
+    z-index: 100; 
+  }
+
+  .all-navbar{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 20px;
+  }
+
+
+
+  .nav-link-with-bg { /* Horizontally center the content */
+    width: 50px; /* Adjust the width and height for your circular link */
+    height: 50px;
+    font-size: 90px;
+  }
+
+  .social-icon{
+    font-size: 80px;
   }
 
   .services-dropdown-content {

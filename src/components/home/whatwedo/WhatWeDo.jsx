@@ -29,19 +29,30 @@ const WhatWeDo = () => {
 
     <div className="row">
       <div className="col">
+      <a
+        href="/ghostwriting"  style={{textDecoration: 'none'}} 
+      >
       <div class="image-box">
               <img src={GhostBook} alt="Ghostwriting" />
             </div>
+            </a>
       </div>
-      <div className="col">
+      <div className="col"> <a
+        href="/copywriting"  style={{textDecoration: 'none'}} 
+      >
       <div class="image-box">
               <img src={Copy} alt="Copywriting" />
             </div>
+            </a>
       </div>
       <div className="col">
+      <a
+        href="/marketing"  style={{textDecoration: 'none'}} 
+      >
       <div class="image-box">
               <img src={Market} alt="Marketing and PR" />
             </div>
+            </a>
       </div>
     </div>
     
@@ -112,7 +123,8 @@ market your brand so it sells itself…
 
 
     <div class="container-fluid whatwedo-phone">
-    <h4 class="whatwedo-header-phone">What We Do</h4>
+    <h4 class="whatwedo-header-phone">Our Expertise
+</h4>
      <div class="row test">
       <div class="col-whatwedo-phone">
         <div class="row">
@@ -121,7 +133,7 @@ market your brand so it sells itself…
         <div class="row">
           <div class="col-md-12">
             <div class="image-box-phone">
-              <img src={GhostBook} alt="Ghostwriting" />
+              <img src={GhostBook} alt="Ghostwriting" className="img-expertise" />
             </div>
           </div>
         </div>
@@ -148,7 +160,7 @@ income, curate your legacy, impact people’s lives, or do nothing…
         <div class="row">
           <div class="col-md-12">
             <div class="image-box-phone">
-              <img src={Copy} alt="Copywriting" />
+              <img src={Copy} alt="Copywriting" className="img-expertise"/>
             </div>
           </div>
         </div>
@@ -175,7 +187,7 @@ your customers can’t get elsewhere; they won’t just pay money, they’ll pay
         <div class="row">
           <div class="col-md-12">
             <div class="image-box-phone">
-              <img src={Market} alt="Marketing and PR" />
+              <img src={Market} alt="Marketing and PR" className="img-expertise" />
             </div>
           </div>
         </div>

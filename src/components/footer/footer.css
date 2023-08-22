@@ -107,7 +107,7 @@
 
  .footer-head{
         color: rgb(41, 41, 98);
-       font-size: 30px;
+       font-size: 20px;
        margin-top: -30px;
        margin-left: -30px;
        padding-bottom: 20px;
@@ -117,13 +117,13 @@
       padding-bottom: 20px;
       padding-top: 30px;
       margin-left: -28px;
-      font-size:21px;
+      font-size:15px;
       text-align: start;
   }
 
   .a-item{
     padding-bottom: 20px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .row-details{
@@ -134,29 +134,26 @@
   overflow-y: hidden;
 }
 .footer-address{
-  font-size: 15px;
+  font-size: 12px;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 30px;
 }
 .row-link-1{
   margin-left: 60px;
-  font-size: 15px;
+  font-size: 12px;
   text-align: center;
   font-weight: bold;
   text-decoration: none;
   color: rgb(20, 20, 58);
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   
 }
 .row-link-2{
-  margin-left: 15px;
-  font-size: 15px;
+  margin-left: 30px;
+  font-size: 12px;
   text-align: center;
   font-weight: bold;
   text-decoration: none;
   color: rgb(20, 20, 58);
-  margin-bottom: 20px;
 }
 
 
@@ -167,7 +164,7 @@
 }
 
 .social-icon {
-  font-size: 20px; 
+  font-size: 12px; 
 }
 
 .nav-link-with-bg-footer {
@@ -198,8 +195,8 @@
 @media (min-width:350px) and (max-width: 480px) {
   .footer-head{
     color: rgb(41, 41, 98);
-   font-size: 50px;
-   margin-top: -30px;
+   font-size: 30px;
+   margin-top: -20px;
    margin-left: -30px;
    padding-bottom: 20px;
 }
@@ -208,13 +205,13 @@
   padding-bottom: 20px;
   padding-top: 30px;
   margin-left: -28px;
-  font-size: 25px;
+  font-size: 20px;
   text-align: start;
 }
 
 .a-item{
 padding-bottom: 20px;
-font-size: 20px;
+font-size: 17px;
 }
 
 .row-details{
@@ -226,21 +223,21 @@ margin-bottom: 50px;
   margin: 0 auto; /* Center the logo horizontally */
 }
 .footer-address {
-  font-size: 16px; /* Adjust font size for smaller screens */
-  margin-top: 15px;
-  margin-bottom: 25px;
+  font-size: 16px; 
 }
 
 .row-link-1
 {
-  margin-left: 120px
+  margin-left: 120px;
+  font-size: 15px;
 }
 .row-link-2 {
   margin-left: 90px; /* Remove the left margin on smaller screens */
+  font-size: 15px;
 }
 
 .social-icons-container {
-  margin-left: 30px; /* Move social icons to the right on smaller screens */
+  margin-left: 50px; /* Move social icons to the right on smaller screens */
   margin-right: auto;
 }
 .nav-link-with-bg-footer {
@@ -253,6 +250,11 @@ margin-bottom: 50px;
   align-items: center;
   justify-content: center;
 }
+
+.social-icon {
+  font-size: 15px; 
+}
+
 }
   
 
@@ -404,8 +406,12 @@ margin-bottom: 50px;
 }
 
 .social-icons-container {
-  margin-left: -105px; 
+  margin-left: -100px; 
   margin-top: 30px;
+}
+
+.social-icon {
+  font-size: 20px;
 }
 .nav-link-with-bg-footer {
   background-color: rgb(20, 20, 58); /* Background color */
@@ -465,12 +471,17 @@ margin-bottom: 50px;
 }
 
 .social-icons-container {
-  margin-left: -8px; 
+  margin-left: -50px; 
   margin-top: 30px;
 }
+
+.social-icon {
+  font-size: 25px;
+}
+
 .nav-link-with-bg-footer {
   background-color: rgb(20, 20, 58); /* Background color */
-  padding: 10px; /* Adjust padding as needed */
+  padding: 13px; /* Adjust padding as needed */
   border-radius: 80%; /* Rounded background */
   margin-right: 20px; /* Add spacing between links */
   transition: background-color 0.3s ease; /* Transition effect */

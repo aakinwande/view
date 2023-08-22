@@ -1,11 +1,9 @@
 import React from "react";
 import Megan from "../../images/testimonialpics/megan.jpg";
 import Solaru from "../../images/testimonialpics/solaru.jpg";
-import Rebecca from "../../images/testimonialpics/rebecca.jpg";
 import Doniie from "../../images/testimonialpics/donnie.jpg";
 import Masterpiece from "../home/masterpiece/Masterpiece";
 import QuestionandBlog from "../home/questionandblog/QuestionandBlog";
-
 
 const SocialMedia = () => {
   return (
@@ -47,7 +45,18 @@ const SocialMedia = () => {
         <div class="row pb-5">
           <div className="col-lg-4 col-md-6 col-12">
             <div className="row">
-              <p style={{ color: "black" }} className="testimonial-text">
+              <p
+                style={{
+                  color: "#333",
+                  fontFamily: "Georgia, serif",
+                  lineHeight: "1.6",
+                  textAlign: "center",
+                  fontStyle: "italic",
+                  padding: "15px 20px",
+                  backgroundColor: "#F9F9F9",
+                }}
+                className="testimonial-text"
+              >
                 "Contextualization and personalization are what AI is lacking
                 right now. There will always be a need for great writers like
                 Kick’s"
@@ -72,7 +81,18 @@ const SocialMedia = () => {
           <div class="col-lg-4 col-md-6 col-12">
             <div className="col">
               <div className="row">
-                <p style={{ color: "black" }} className="testimonial-text">
+                <p
+                  style={{
+                    color: "#333",
+                    fontFamily: "Georgia, serif",
+                    lineHeight: "1.6",
+                    textAlign: "center",
+                    fontStyle: "italic",
+                    padding: "15px 20px",
+                    backgroundColor: "#F9F9F9",
+                  }}
+                  className="testimonial-text"
+                >
                   "This team is an awesome team. Truly awesome. That word is
                   overused, but you truly fill that word with meaning. It is
                   truly an honor to read your work."
@@ -99,7 +119,18 @@ const SocialMedia = () => {
           <div class="col-lg-4 col-md-6 col-12">
             <div className="col">
               <div className="row">
-                <p style={{ color: "black" }} className="testimonial-text">
+                <p
+                  style={{
+                    color: "#333",
+                    fontFamily: "Georgia, serif",
+                    lineHeight: "1.6",
+                    textAlign: "center",
+                    fontStyle: "italic",
+                    padding: "15px 20px",
+                    backgroundColor: "#F9F9F9",
+                  }}
+                  className="testimonial-text"
+                >
                   "Love the direction you went with the narrative, fantastic
                   writing. Gosh, I can just imagine the types of people who
                   would benefit from YOU telling their story, you’re creating
@@ -124,16 +155,22 @@ const SocialMedia = () => {
           </div>
         </div>
       </div>
-      <div class="container-fluid cta">
-        <h4 style={{fontSize: '20px'}}>
+      <div class="container-fluid copysection">
+        <h4 style={{ fontSize: "20px" }}>
           You can say “I’ve been a pilot for 20 years” or “I’ve flown commercial
           jets for over two decades” We compel sales for your business using the
           right words. The world rewards sensation before substance. Our words
           present your business as delivering something divine your customers
           can’t get elsewhere; they won’t just pay money, they’ll pay attention…
-          you can multiply your business or remain where you are.{" "}
+          you can multiply your business or remain where you are.
         </h4>
-        <button style={{fontSize: '14px'}} className="btn-cta">MULTIPLY MY BUSINESS</button>
+        <a
+          href="https://calendly.com/kalukalu/30min"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="btn-copysection">MULTIPLY MY BUSINESS</button>
+        </a>
       </div>
       <Masterpiece />
       <QuestionandBlog />

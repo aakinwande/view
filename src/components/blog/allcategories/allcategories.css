@@ -1,0 +1,225 @@
+.all-categories-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    width: 490px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-text {
+    font-size: 14px;
+    color: rgb(20, 20, 58);
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  .btn-allcategories{
+    background-color: rgb(20, 20, 58);
+    color: white;
+  }
+  .btn-allcategories:hover{
+    background-color: rgb(76, 157, 197);
+        color: white;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    margin-bottom: 300px;
+  }
+  
+  .pagination-button.active {
+    background-color: rgb(20, 20, 58);
+    color: white;
+  }
+  
+  @media (min-width:280px) {
+    .card-container{
+      width: 100%;
+    }
+
+    .card-text {
+      padding-left: 10px;
+     }
+     
+     .card-title {
+       padding-left: 20px;
+       font-size: 20px;
+       margin-bottom: 20px;
+     }
+
+     .btn-allcategories{
+       margin-left: 20px;
+     }
+
+     .pagination {
+       margin-top: 50px;
+       margin-bottom: -80px;
+     }
+     .pagination-button {
+       margin: 0 5px;
+       padding: 5px 10px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       background-color: #f7f7f7;
+       cursor: pointer;
+       margin-bottom: 300px;
+     }
+  }
+  @media (min-width:350px) and (max-width: 480px) {
+    .card-container{
+      width: 100%;
+    }
+
+    .card-text {
+      padding-left: 10px;
+     }
+     
+     .card-title {
+       padding-left: 20px;
+       font-size: 20px;
+       margin-bottom: 20px;
+     }
+
+     .btn-allcategories{
+       margin-left: 20px;
+     }
+
+     .pagination {
+       margin-top: 50px;
+       margin-bottom: -80px;
+     }
+     .pagination-button {
+       margin: 0 5px;
+       padding: 5px 10px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       background-color: #f7f7f7;
+       cursor: pointer;
+       margin-bottom: 300px;
+     }
+    }
+  @media screen and (min-width: 481px) and (max-width: 767px) {
+    
+  }
+  
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .card-container {
+      margin-top: 20px;
+      
+    }
+}
+  
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  
+  .card-container {
+    margin-top: 20px;
+    
+  }
+  .card-text {
+    padding-left: 10px;
+   }
+   .card {
+    width: 300px;
+  }
+   
+   .card-title {
+     padding-left: 20px;
+     font-size: 20px;
+     margin-bottom: 20px;
+   }
+
+   .btn-allcategories{
+     margin-left: 20px;
+   }
+  
+
+   .pagination {
+     margin-top: 50px;
+     margin-bottom: -80px;
+   }
+   .pagination-button {
+     margin: 0 5px;
+     padding: 5px 10px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     background-color: #f7f7f7;
+     cursor: pointer;
+     margin-bottom: 300px;
+   }
+
+}
+
+/* @media screen and (min-width: 1281px) and (max-width: 1442px) {
+
+} */
+  @media screen and  (min-width: 1443px) {
+
+  
+
+    .card-text {
+       padding-left: 10px;
+      }
+      
+      .card-title {
+        padding-left: 20px;
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+
+      .btn-allcategories{
+        margin-left: 20px;
+      }
+
+      .pagination {
+        margin-top: 50px;
+        margin-bottom: -80px;
+      }
+      .pagination-button {
+        margin: 0 5px;
+        padding: 5px 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #f7f7f7;
+        cursor: pointer;
+        margin-bottom: 300px;
+      }
+  }

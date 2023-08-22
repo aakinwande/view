@@ -6,7 +6,7 @@ import QuestionandBlog from "../home/questionandblog/QuestionandBlog";
 const Marketing = () => {
   return (
     <>
-      <div class="container-fluid-hero-market">
+      <div class="container-fluid-hero-market" style={{marginBottom: '250px'}}>
         <div class="row background-image-market">
           <div className="col">
             <div className="row">
@@ -38,14 +38,20 @@ const Marketing = () => {
     
 
 
-      <div class="container-fluid cta">
-      <h4 style={{fontSize: '20px', paddingTop: '20px'}}> We’ll make sure your image is recognizable then track your customers
+      <div class="container-fluid marketingsection">
+      <h4 style={{fontSize: '20px'}}> We’ll make sure your image is recognizable then track your customers
             to position you right in their faces. If they aren’t set to buy what
             you’re selling, they’ll willingly market you to their circle. That’s
             how good we make you look. Your avatar’s network is a treasure trove
             of potential customers! If “network” is your “net worth”, their
             network is our homework. we market your brand so it sells itself…</h4>
-      <button style={{fontSize: '14px', paddingRight: '82px', paddingLeft: '82px' }} className="btn-cta">LET'S MEET</button>
+         <a
+                  href="https://calendly.com/kalukalu/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+      <button className="btn-marketingsection">LET'S MEET</button>
+      </a>
     </div>
     <QuestionandBlog />
       <NewsLetter />

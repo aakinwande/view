@@ -7,7 +7,7 @@
 .whatwedo-header{
     text-align: center;
     padding: 20px;
-    color: rgb(20, 20, 58);
+    color:white;
     font-size: 30px;
 }
 
@@ -93,81 +93,114 @@
 
 
   @media (max-width: 280px) {
+    .whatwedo{
+      display: none;
+    }
+
     .col {
       flex-basis: 100%; /* One section per row */
     }
 
-    
-      .whatwedo-main-text {
-        font-size: 30px;
+    .whatwedo-phone{
+      background-color: rgb(20, 20, 58);
+      padding: 20px; /* Add padding around the content */
+      text-align: center;
+    }
+
+    .whatwedo-header-phone {
+        font-size: 20px;
         text-align: center;
-        color: white;
         padding-bottom: 20px;
         padding-top: 30px;
-      }
-
-      .image-box {
+        color: white;
         margin-bottom: 30px;
-        padding: 20px;
-      }
-      .whatwedo-paragraph{
-        font-size: 17px;
-        padding-bottom: 20px;
       }
 
-      .whatwedo-btn {
+      .image-box-phone {
+        margin-bottom: 40px;
+        padding: 30px;
+        background-color: rgb(76, 157, 197);
+       }
+       .img-expertise{
+        width: 100px;
+        height: 70px;
+       }
      
-        padding: 30px 10px;
-        margin-bottom: 20px;
-      
-       
-      }
-  }
-  
-  @media (min-width:350px) and (max-width: 480px) {
-    .col {
-      flex-basis: 100%; /* One section per row */
-    }
-
-    
-      .whatwedo-main-text {
-        font-size: 35px;
-        text-align: center;
-        color: white;
-        padding-bottom: 20px;
-        padding-top: 30px;
-      }
-      .whatwedo{
-        display: none;
-      }
-
-      .whatwedo-phone{
-        background-color: rgb(76, 157, 197); /* Set the background color */
-        padding: 20px; /* Add padding around the content */
-        text-align: center;
-      }
-
-      .whatwedo-header-phone{
+      .whatwedo-main-text-phone {
         margin-bottom: 30px;
-      }
-      
-  .whatwedo-main-text-phone {
-   margin-bottom: 30px;
-   font-size: 40px;
-   
-  }
+        font-size: 25px;
+        
+       }
 
-  .image-box-phone {
-   margin-bottom: 40px;
-   padding: 30px;
-  }
+       .whatwedo-paragraph-phone{
+        font-size: 13px;
+       }
+
 
   .whatwedo-btn-phone{
     margin-top: 20px;
     margin-bottom: 60px;
-    padding: 20px;
-    width: 50%;
-    margin-left: 100px;
+    padding: 20px 10px;
+    width: 70%;
+    margin-left: 40px;
+    font-size: 13px;
+    background-color: rgb(76, 157, 197);
+  }
+  }
+  
+  @media (min-width:350px) and (max-width: 480px) {
+    .whatwedo{
+      display: none;
+    }
+
+    .col {
+      flex-basis: 100%; /* One section per row */
+    }
+
+    .whatwedo-phone{
+      background-color: rgb(20, 20, 58);
+      padding: 20px; /* Add padding around the content */
+      text-align: center;
+    }
+
+    .whatwedo-header-phone {
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 30px;
+        color: white;
+        margin-bottom: 30px;
+      }
+
+      .image-box-phone {
+        margin-bottom: 40px;
+        padding: 30px;
+        background-color: rgb(76, 157, 197);
+       }
+       .img-expertise{
+        width: 100px;
+        height: 90px;
+       }
+     
+      .whatwedo-main-text-phone {
+        margin-bottom: 30px;
+        font-size: 25px;
+        
+       }
+
+       .whatwedo-paragraph-phone{
+        font-size: 15px;
+       }
+
+
+  .whatwedo-btn-phone{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding: 20px 10px;
+    width: 70%;
+    margin-left: 60px;
+    font-size: 13px;
+    background-color: rgb(76, 157, 197);
   }
   }
 
@@ -290,7 +323,7 @@
       margin-bottom: 30px;
     }
     .whatwedo-btn:hover {
-     color: black;
+     background-color: rgb(47, 47, 96);
     }
     .whatwedo-phone{
       display: none;
@@ -304,6 +337,13 @@
       align-items: flex-start;
     }
 
+    .whatwedo-header{
+      text-align: center;
+      padding: 20px;
+      color: white;
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
     .whatwedo-main-text {
       font-size: 30px;
       margin-top: 20px;
@@ -332,6 +372,9 @@
       padding: 30px;
       margin-bottom: 30px;
     }
+    .whatwedo-btn:hover {
+      background-color: rgb(47, 47, 96);
+     }
 
     .whatwedo-phone{
       display: none;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./newsletter.css";
-import KtnPlus from "../../../images/ktnLogo/ktnPlus.svg";
+import KtnPlus from "../../../images/KickLogo/KtnNewsletter.png";
 
 const NewsLetter = () => {
   return (
@@ -11,10 +11,7 @@ const NewsLetter = () => {
             <img src={KtnPlus} alt="" className="ktnplus" />
           </h4>
         </div>
-      </div>
-      <div class="container-fluid newsletter-texting">
         <div className="row">
-          <div className="row">
             <p className="newsletter-text">
               We invest countless hours interviewing elite professionals across
               a wide spectrum of fields. These interviews generate content for
@@ -50,14 +47,15 @@ const NewsLetter = () => {
                 $12.99/month
               </span>
             </p>
-          </div>
-        </div>
       </div>
       <div class="container-fluid newsletter">
       <div className="row">
         <button className="newsletter-btn">SUBSCRIBE</button>
       </div>
     </div>
+      </div>
+          
+    
     </>
   );
 };

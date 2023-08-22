@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import OurWork from "../home/ourwork/OurWork";
 import Susan from "../../images/testimonialpics/susan.jpeg";
 import Chritiana from "../../images/testimonialpics/chritiana.jpg";
@@ -8,7 +8,6 @@ import Travis from "../../images/testimonialpics/travis.jpg";
 import Ralph from "../../images/testimonialpics/Ralph.jpeg";
 import Masterpiece from "../home/masterpiece/Masterpiece";
 import QuestionandBlog from "../home/questionandblog/QuestionandBlog";
-
 
 const BusinessBooks = () => {
   return (
@@ -23,8 +22,9 @@ const BusinessBooks = () => {
               </h5>
               <div className="row">
                 <p className="hero-desc-ghost">
-                Your life experience is intellectual property the government cannot own, seize, or control. 
-Capitalize on that now- claim ownership! 
+                  Your life experience is intellectual property the government
+                  cannot own, seize, or control. Capitalize on that now- claim
+                  ownership!
                 </p>
               </div>
               <div className="row btn-crow-ghost">
@@ -57,7 +57,18 @@ Capitalize on that now- claim ownership!
         <div class="row pb-5">
           <div className="col-lg-4 col-md-6 col-12">
             <div className="row">
-              <p style={{ color: "black" }} className="testimonial-text">
+              <p
+                style={{
+                  color: "#333",
+                  fontFamily: "Georgia, serif",
+                  lineHeight: "1.6",
+                  textAlign: "center",
+                  fontStyle: "italic",
+                  padding: "15px 20px",
+                  backgroundColor: "#F9F9F9",
+                }}
+                className="testimonial-text"
+              >
                 "I believe, like being a composer, it is a gift to come up with
                 a piece of writing that can move people to action- Only some
                 people have this gift. I believe you are one of those people.
@@ -87,7 +98,18 @@ Capitalize on that now- claim ownership!
           <div class="col-lg-4 col-md-6 col-12">
             <div className="col">
               <div className="row">
-                <p style={{ color: "black" }} className="testimonial-text">
+                <p
+                  style={{
+                    color: "#333",
+                    fontFamily: "Georgia, serif",
+                    lineHeight: "1.6",
+                    textAlign: "center",
+                    fontStyle: "italic",
+                    padding: "15px 20px",
+                    backgroundColor: "#F9F9F9",
+                  }}
+                  className="testimonial-text"
+                >
                   "Ghostwriting is a skill. To catch the thoughts and voice of
                   another person and put it into your words is a skill, not many
                   people do well, but you are super talented, so I can see why
@@ -122,7 +144,18 @@ Capitalize on that now- claim ownership!
           <div class="col-lg-4 col-md-6 col-12">
             <div className="col">
               <div className="row">
-                <p style={{ color: "black" }} className="testimonial-text">
+                <p
+                  style={{
+                    color: "#333",
+                    fontFamily: "Georgia, serif",
+                    lineHeight: "1.6",
+                    textAlign: "center",
+                    fontStyle: "italic",
+                    padding: "15px 20px",
+                    backgroundColor: "#F9F9F9",
+                  }}
+                  className="testimonial-text"
+                >
                   "Kick&co creations are more than just compelling narratives;
                   they are works of art. Reach out to them for exceptional
                   ghostwriting and marketing services where you'll receive more
@@ -151,7 +184,18 @@ Capitalize on that now- claim ownership!
           <div class="col-lg-4 col-md-6 col-12">
             <div className="col">
               <div className="row">
-                <p style={{ color: "black" }} className="testimonial-text">
+                <p
+                  style={{
+                    color: "#333",
+                    fontFamily: "Georgia, serif",
+                    lineHeight: "1.6",
+                    textAlign: "center",
+                    fontStyle: "italic",
+                    padding: "15px 20px",
+                    backgroundColor: "#F9F9F9",
+                  }}
+                  className="testimonial-text"
+                >
                   "I love seeing a band of young people come together to create
                   something and you have created something truly remarkable
                   here; I happily recommend your services to people."
@@ -178,7 +222,18 @@ Capitalize on that now- claim ownership!
           <div class="col-lg-4 col-md-6 col-12">
             <div className="col">
               <div className="row">
-                <p style={{ color: "black" }} className="testimonial-text">
+                <p
+                  style={{
+                    color: "#333",
+                    fontFamily: "Georgia, serif",
+                    lineHeight: "1.6",
+                    textAlign: "center",
+                    fontStyle: "italic",
+                    padding: "15px 20px",
+                    backgroundColor: "#F9F9F9",
+                  }}
+                  className="testimonial-text"
+                >
                   "Your experience of ghostwriting is a great example of turning
                   ideas into profitable ventures. It's all about adding value
                   and creating win-win partnerships. Providing this valuable
@@ -207,7 +262,18 @@ Capitalize on that now- claim ownership!
           <div class="col-lg-4 col-md-6 col-12">
             <div className="col">
               <div className="row">
-                <p style={{ color: "black" }} className="testimonial-text">
+                <p
+                  style={{
+                    color: "#333",
+                    fontFamily: "Georgia, serif",
+                    lineHeight: "1.6",
+                    textAlign: "center",
+                    fontStyle: "italic",
+                    padding: "15px 20px",
+                    backgroundColor: "#F9F9F9",
+                  }}
+                  className="testimonial-text"
+                >
                   "I want to send a big appreciation to Kick&co, I never thought
                   I'd write a book until last year considering I didn't even
                   like reading until last year. Your help, expertise, and
@@ -232,21 +298,34 @@ Capitalize on that now- claim ownership!
           </div>
         </div>
       </div>
-      <div class="container-fluid cta">
-      <h4 style={{fontSize: '20px'}}>     Your experience in life answers someone’s search for answers- that’s
-            great content! We listen to digest your story, then package and
-            present it in the best form to achieve a purpose. You can grow your
-            authority in your industry, turn your experiences into passive
-            income, curate your legacy, impact people’s lives, or do nothing…</h4>
-      <button style={{fontSize: '14px'}} className="btn-cta"> TURN MY STORY TO PASSIVE INCOME</button>
-    </div>
+      <div class="container-fluid allghostservice">
+        <h4 style={{ fontSize: "20px" }}>
+          Your experience in life answers someone’s search for answers- that’s
+          great content!
+          <br /> We listen to digest your story, then package and present it in
+          the best form to achieve a purpose. <br />
+          You can grow your authority in your industry, turn your experiences
+          into passive income,
+          <br />
+          curate your legacy, impact people’s lives, or do nothing…
+        </h4>
+        <a
+          href="https://calendly.com/kalukalu/30min"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="btn-ghostsection">
+            {" "}
+            TURN MY STORY
+            <br /> TO PASSIVE INCOME
+          </button>
+        </a>{" "}
+      </div>
 
-
-    
       <Masterpiece />
-      <QuestionandBlog/>
+      <QuestionandBlog />
     </>
-  )
-}
+  );
+};
 
-export default BusinessBooks
+export default BusinessBooks;

@@ -25,12 +25,362 @@
 
 
 @media (min-width:280px) {
+  .toc{
+    overflow: hidden;
   }
-  @media (min-width:350px) and (max-width: 480px) {
-   
+
+  
+
+    .blogback {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+ .moreblog-title{
+  background-color: rgb(226, 226, 219);
+ 
+  font-weight: bold;
+  font-size: 20px;
+ }
+
+ .moreblog-icon{
+  padding: 10px 30px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 30px;
+align-items: center;  width: 350%;
+}
+
+.blog-icons{
+  display: flex;
+align-items: center; /* Vertically align the icons */
+gap: 10px;
+margin-left: 0px;
+}
+.ktnplus-btn{
+  width: 70%;
+  padding: 20px 10px;
+font-size: 15px;
+font-weight: bold;
+color: white;
+display: block;
+border-radius: 5%;
+background-color: rgb(76, 157, 197);
+display: block;
+margin: 30px auto;
+}
+ .moreblog-img{
+  width: 400px; 
+height: 300px; 
+margin-top: 400px;
+position: relative;
+right: 165px;
+padding: 70px;
+}
+
+.blog-p{
+  margin: -80px 0px 50px 10px;
+  font-size: 15px;
+  text-align: left;
+  margin-bottom: 90px;
+  width: 180%;
+  padding: 20px;
+  position: relative;
+  right: 120px;
+}
+.blog-p::first-letter{
+  font-size: 50px;
+  color: rgb(20, 20, 58);
+}
+
+
+
+.blog-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: white;
+        color: rgb(20, 20, 58);
+        font-size: 20px;
+        text-decoration: none;
+        margin-top: 20px;
+  
+      }
+      
+      .blog-icon i {
+        line-height: 1;
+      }
+      
+      .blog-icon:hover {
+        background-color: rgb(76, 157, 197); /* Change the background color on hover */
+      }
+      
+      /* Add a subtle scale effect on hover */
+      .blog-icon:hover i {
+        transform: scale(1.1);
+      }
+
+  
+
+      .ktnplus-btn:hover{
+       background-color: red;
+      }
+      .readmore-ktn{
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+      }
+
+      .bottomblog-ktn {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    
+      .theblogcard {
+        width: calc(100% - 50px);
+        margin-bottom: 20px;
+        margin-left: 25px;
+      }
+    
+      .theblogcard .card-body {
+        padding: 20px;
+      }
+
+  .btn-readmorektn {
+    font-size: 16px;
+    padding: 20px 20px;
+    border-radius: 4%;
+    background-color: rgb(20, 20, 58);
+    color:white;
+  }
+  .btn-readmorektn:hover{
+    background-color: rgb(76, 157, 197);
+   }
+
+      
+      /* Footer Section */
+
+           .blogfootersection{
+            overflow: hidden;
+            margin-top: 30px;
+           }
+
+           .moreblog-icon-footer{
+           
+            font-size: 20px;
+            margin-left: 60px;
+            margin-top: 30px;
+            align-items: center;
+            
+          }
+
+           .blog-icon-footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: white;
+            color: rgb(20, 20, 58);
+            font-size: 20px;
+            text-decoration: none;
+            margin-top: 10px;
+            position: relative;
+            right: 55px;
+      
+          }
+          
+
+          .back-to-top-button{
+          display: none;
+          }
+  }
+@media (min-width:350px) and (max-width: 480px) {
+  .toc{
+    overflow: hidden;
+  }
+
+  
+
+    .blogback {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+ .moreblog-title{
+  background-color: rgb(226, 226, 219);
+ 
+  font-weight: bold;
+  font-size: 30px;
+ }
+
+ .moreblog-icon{
+  padding: 10px 30px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+align-items: center;  width: 350%;
+}
+
+.blog-icons{
+  display: flex;
+align-items: center; /* Vertically align the icons */
+gap: 10px;
+margin-left: 30px;
+}
+.ktnplus-btn{
+  width: 50%;
+  padding: 20px 10px;
+font-size: 15px;
+font-weight: bold;
+color: white;
+display: block;
+border-radius: 5%;
+background-color: rgb(76, 157, 197);
+display: block;
+margin: 30px auto;
+}
+ .moreblog-img{
+  width: 400px; 
+height: 300px; 
+margin-top: 400px;
+position: relative;
+right: 150px;
+padding: 20px;
+}
+
+.blog-p{
+  margin: -10px 0px 50px 10px;
+  font-size: 15px;
+  text-align: left;
+  margin-bottom: 90px;
+  width: 150%;
+  padding: 20px;
+  position: relative;
+  right: 150px;
+}
+.blog-p::first-letter{
+  font-size: 50px;
+  color: rgb(20, 20, 58);
+}
+
+
+
+.blog-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: white;
+        color: rgb(20, 20, 58);
+        font-size: 20px;
+        text-decoration: none;
+        margin-top: 20px;
+  
+      }
+      
+      .blog-icon i {
+        line-height: 1;
+      }
+      
+      .blog-icon:hover {
+        background-color: rgb(76, 157, 197); /* Change the background color on hover */
+      }
+      
+      /* Add a subtle scale effect on hover */
+      .blog-icon:hover i {
+        transform: scale(1.1);
+      }
+
+  
+
+      .ktnplus-btn:hover{
+       background-color: red;
+      }
+      .readmore-ktn{
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+      }
+
+      .bottomblog-ktn {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    
+      .theblogcard {
+        width: calc(100% - 50px);
+        margin-bottom: 20px;
+        margin-left: 25px;
+      }
+    
+      .theblogcard .card-body {
+        padding: 20px;
+      }
+
+  .btn-readmorektn {
+    font-size: 16px;
+    padding: 20px 20px;
+    border-radius: 4%;
+    background-color: rgb(20, 20, 58);
+    color:white;
+  }
+  .btn-readmorektn:hover{
+    background-color: rgb(76, 157, 197);
+   }
+
+      
+      /* Footer Section */
+
+           .blogfootersection{
+            overflow: hidden;
+            margin-top: 30px;
+           }
+
+           .moreblog-icon-footer{
+           
+            font-size: 25px;
+            margin-left: 90px;
+            margin-top: 30px;
+            align-items: center;
+            
+          }
+
+           .blog-icon-footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: white;
+            color: rgb(20, 20, 58);
+            font-size: 20px;
+            text-decoration: none;
+            margin-top: 10px;
+            position: relative;
+            right: 55px;
+      
+          }
+          
+
+          .back-to-top-button{
+          display: none;
+          }
+
 
     }
-  @media screen and (min-width: 481px) and (max-width: 767px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
   }
   
 
@@ -41,77 +391,62 @@
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
 
-   
-    
-    .blogback{
-        color: rgb(20, 20, 58);
-    }
+  .toc{
+    overflow: hidden;
+  }
 
-    
-    .blogback:hover{
-        color: rgb(76, 157, 197);
-    }
+ .moreblog-title{
+  background-color: rgb(226, 226, 219);
+  padding: 100px;
+  font-weight: bold;
+  font-size: 50px;
+ }
+ .moreblog-icon{
+  padding: 10px 30px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 90px;
+}
+ .moreblog-img{
+  width: 1000px; 
+height: 700px; 
+padding: 10px; 
+margin-top: 30px;
+width: 90%;
+}
 
-    .moreblog-title{
-       font-size:40px;
-       font-weight: bold;
-       text-align: center;
-       
-    }
+.blog-p{
+  margin: 50px 70px 50px 10px;
+  font-size: 25px;
+  text-align: left;
+  margin-bottom: 90px;
+  width: 90%;
+}
+.blog-p::first-letter{
+  font-size: 50px;
+  color: rgb(20, 20, 58);
+}
 
-    .moreblog-icon{
-        padding: 1px 50px 50px 50px ;
-        font-size: 20px;
-        text-align: center;
-    }
+.blog-icons{
+  display: flex;
+align-items: center; /* Vertically align the icons */
+gap: 10px;
+margin-left: 35px;
+}
 
-    .moreblog-img{
-        max-width: 100%; /* Ensure the image doesn't exceed its container */
-    height: auto; /* Maintain aspect ratio */
-    padding: 10px; /* Center the image horizontally and adjust vertical margin */
-    display: block;
-    }
-
-    .moreblog-desc{
-    padding: 1px 50px 50px 50px ;
-    font-size: 15px;
-    text-align: left;
-    
-    }
-
-    .moreblog-desc::first-letter {
-        font-size: 40px; 
-        color: rgb(20, 20, 58);
-        font-weight: bold;
-    }
-
-    .blog-p{
-        margin: 30px 80px 80px 80px;
-        font-size: 15px;
-        text-align: left;
-        margin-bottom: 90px;
-     }
-
-     .blog-icons{
-        display: flex;
-  align-items: center; /* Vertically align the icons */
-  gap: 10px;
-margin-left: 400px;
-     }
-
-     .blog-icon {
+.blog-icon {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
-        background-color: #3b5998;
-        color: white;
+        background-color: white;
+        color: rgb(20, 20, 58);
         font-size: 20px;
         text-decoration: none;
-        transition: background-color 0.2s ease;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+  
       }
       
       .blog-icon i {
@@ -126,88 +461,174 @@ margin-left: 400px;
       .blog-icon:hover i {
         transform: scale(1.1);
       }
+
+      .ktnplus-btn{
+        width: 50%;
+        padding: 20px 10px;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+    display: block;
+    margin-top: 30px;
+    border-radius: 5%;
+    background-color: rgb(76, 157, 197);
+    display: block;
+    margin: 30px auto;
+      }
+
+      .ktnplus-btn:hover{
+       background-color: red;
+      }
+      .readmore-ktn{
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+      }
+
+      .bottomblog-ktn {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    
+      .theblogcard {
+        width: calc(33.33% - 30px); /* Adjust the width as needed */
+        margin-bottom: 20px;
+      }
+    
+      .theblogcard .card-body {
+        padding: 20px;
+      }
+
+
+      .btn-readmorektn {
+        font-size: 16px;
+        padding: 30px 30px;
+        border-radius: 4%;
+        background-color: rgb(20, 20, 58);
+        color:white;
+        position: relative;
+        right: 550px;
+        top: 470px;
+      }
+      .btn-readmorektn:hover{
+        background-color: rgb(76, 157, 197);
+       }
+    
+      .blogfootersection{
+        overflow: hidden;
+        margin-top: 100px;
+       }
+    
+       .moreblog-icon-footer{
+       
+        font-size: 25px;
+        margin-left: 800px;
+        margin-top: 30px;
+        
+      }
+    
+       .blog-icon-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: white;
+        color: rgb(20, 20, 58);
+        font-size: 20px;
+        text-decoration: none;
+        margin-top: 10px;
+        position: relative;
+        right: 60px;
+    
+      }
+      
+      .blog-icon-footer i {
+        line-height: 1;
+      }
+      
+      .blog-icon-footer:hover {
+        background-color: rgb(76, 157, 197); /* Change the background color on hover */
+      }
+      
+      /* Add a subtle scale effect on hover */
+      .blog-icon-footer:hover i {
+        transform: scale(1.1);
+      }
+    
+      .back-to-top-button{
+        position: relative;
+        bottom: 100px;
+        left: 1065px;
+        font-size: 20px;
+        padding-right: 12px;
+      }
+      
+
+
+ 
     
 }
 
-@media screen and  (min-width: 1281px) {
+@media screen and (min-width: 1281px) and (max-width: 1442px) {
+  .toc{
+    overflow: hidden;
+  }
 
-    .toc{
-        
-    }
-    .blogback{
-        color: rgb(20, 20, 58);
-        font-size: 25px;
-    }
+ .moreblog-title{
+  background-color: rgb(226, 226, 219);
+  padding: 100px;
+  font-weight: bold;
+  font-size: 50px;
+ }
+ .moreblog-icon{
+  padding: 10px 30px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 90px;
+}
+ .moreblog-img{
+  width: 1000px; 
+height: 700px; 
+padding: 10px; 
+margin-top: 30px;
+width: 90%;
+}
 
-    
-    .blogback:hover{
-        color: rgb(76, 157, 197);
-      
-    }
-    
+.blog-p{
+  margin: 50px 70px 50px 10px;
+  font-size: 25px;
+  text-align: left;
+  margin-bottom: 90px;
+  width: 90%;
+}
+.blog-p::first-letter{
+  font-size: 50px;
+  color: rgb(20, 20, 58);
+}
 
-    
-    .moreblog-title {
-        font-size: 40px;
-        font-weight: bold;
-        text-align: center;
-    }
+.blog-icons{
+  display: flex;
+align-items: center; /* Vertically align the icons */
+gap: 10px;
+margin-left: 60px;
+}
 
-     .moreblog-icon{
-        padding: 10px 30px;
-        font-size: 25px;
-        text-align: center;
-        margin-bottom: 90px;
-     }
- 
-     .moreblog-img{
-        max-width: 100%; /* Ensure the image doesn't exceed its container */
-    height: auto; /* Maintain aspect ratio */
-    padding: 10px; /* Reduce padding for smaller screens */
-     /* Center the image horizontally and adjust vertical margin */
-    display: block;
-     }
- 
-     .moreblog-desc{
-        padding: 10px 30px;
-        font-size: 25px;
-        text-align: left;
-        margin-bottom: 90px;
-     
-     }
- 
-     .moreblog-desc::first-letter {
-         font-size: 40px; 
-         color: rgb(20, 20, 58);
-         font-weight: bold;
-     }
-
-     .blog-p{
-        margin: 50px 210px 210px 210px;
-        font-size: 25px;
-        text-align: left;
-        margin-bottom: 90px;
-     }
-     .blog-icons{
-        display: flex;
-  align-items: center; /* Vertically align the icons */
-  gap: 10px;
-margin-left: 510px;
-     }
-
-     .blog-icon {
+.blog-icon {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
-        background-color: #3b5998;
-        color: white;
+        background-color: white;
+        color: rgb(20, 20, 58);
         font-size: 20px;
         text-decoration: none;
-        transition: background-color 0.2s ease;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+  
       }
       
       .blog-icon i {
@@ -222,4 +643,313 @@ margin-left: 510px;
       .blog-icon:hover i {
         transform: scale(1.1);
       }
+
+      .ktnplus-btn{
+        width: 50%;
+        padding: 20px 10px;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+    display: block;
+    margin-top: 30px;
+    border-radius: 5%;
+    background-color: rgb(76, 157, 197);
+    display: block;
+    margin: 30px auto;
+      }
+
+      .ktnplus-btn:hover{
+       background-color: red;
+      }
+      .readmore-ktn{
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+      }
+
+      .bottomblog-ktn {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    
+      .theblogcard {
+        width: calc(33.33% - 30px); /* Adjust the width as needed */
+        margin-bottom: 20px;
+      }
+    
+      .theblogcard .card-body {
+        padding: 20px;
+      }
+
+      
+  .blogback {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .btn-readmorektn {
+    font-size: 16px;
+    padding: 30px 30px;
+    border-radius: 4%;
+    background-color: rgb(20, 20, 58);
+    color:white;
+  }
+  .btn-readmorektn:hover{
+    background-color: rgb(76, 157, 197);
+   }
+
+  .blogfootersection{
+    overflow: hidden;
+    margin-top: 30px;
+   }
+
+   .moreblog-icon-footer{
+   
+    font-size: 25px;
+    margin-left: 900px;
+    margin-top: 30px;
+    
+  }
+
+   .blog-icon-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(20, 20, 58);
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    position: relative;
+    right: 80px;
+
+  }
+  
+  .blog-icon-footer i {
+    line-height: 1;
+  }
+  
+  .blog-icon-footer:hover {
+    background-color: rgb(76, 157, 197); /* Change the background color on hover */
+  }
+  
+  /* Add a subtle scale effect on hover */
+  .blog-icon-footer:hover i {
+    transform: scale(1.1);
+  }
+
+  .back-to-top-button{
+    position: relative;
+    bottom: 100px;
+    left:1200px;
+    font-size: 20px;
+    padding-right: 12px;
+  }
+
+}
+
+@media screen and  (min-width: 1443px) {
+
+  .toc{
+    overflow: hidden;
+  }
+
+  /* .btn-readmorektn{
+    padding: 30px 40px;
+    border-radius: 3%;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(76, 157, 197);
+    border: none;
+   width: 20%;
+  } */
+
+  
+
+    .blogback {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+ .moreblog-title{
+  background-color: rgb(226, 226, 219);
+  padding: 100px;
+  font-weight: bold;
+  font-size: 50px;
+ }
+ .moreblog-icon{
+  padding: 10px 30px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 90px;
+}
+ .moreblog-img{
+  width: 1000px; 
+height: 700px; 
+padding: 10px; 
+margin-top: 30px;
+width: 90%;
+}
+
+.blog-p{
+  margin: 50px 70px 50px 10px;
+  font-size: 25px;
+  text-align: left;
+  margin-bottom: 90px;
+  width: 90%;
+}
+.blog-p::first-letter{
+  font-size: 50px;
+  color: rgb(20, 20, 58);
+}
+
+.blog-icons{
+  display: flex;
+align-items: center; /* Vertically align the icons */
+gap: 10px;
+margin-left: 120px;
+}
+
+.blog-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: white;
+        color: rgb(20, 20, 58);
+        font-size: 20px;
+        text-decoration: none;
+        margin-top: 20px;
+  
+      }
+      
+      .blog-icon i {
+        line-height: 1;
+      }
+      
+      .blog-icon:hover {
+        background-color: rgb(76, 157, 197); /* Change the background color on hover */
+      }
+      
+      /* Add a subtle scale effect on hover */
+      .blog-icon:hover i {
+        transform: scale(1.1);
+      }
+
+      .ktnplus-btn{
+        width: 50%;
+        padding: 20px 10px;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+    display: block;
+    margin-top: 30px;
+    border-radius: 5%;
+    background-color: rgb(76, 157, 197);
+    display: block;
+    margin: 30px auto;
+      }
+
+      .ktnplus-btn:hover{
+       background-color: red;
+      }
+      .readmore-ktn{
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+      }
+
+      .bottomblog-ktn {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    
+      .theblogcard {
+        width: calc(33.33% - 50px);
+        margin-bottom: 20px;
+        margin-right: 30px;
+      }
+    
+      .theblogcard .card-body {
+        padding: 20px;
+      }
+
+  .btn-readmorektn {
+    font-size: 16px;
+    padding: 30px 30px;
+    border-radius: 4%;
+    background-color: rgb(20, 20, 58);
+    color:white;
+  }
+  .btn-readmorektn:hover{
+    background-color: rgb(76, 157, 197);
+   }
+
+      
+      /* Footer Section */
+
+           .blogfootersection{
+            overflow: hidden;
+            margin-top: 30px;
+           }
+
+           .moreblog-icon-footer{
+           
+            font-size: 25px;
+            margin-left: 1100px;
+            margin-top: 30px;
+            
+          }
+
+           .blog-icon-footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: white;
+            color: rgb(20, 20, 58);
+            font-size: 20px;
+            text-decoration: none;
+            margin-top: 10px;
+            position: relative;
+            right: 140px;
+      
+          }
+          
+          .blog-icon-footer i {
+            line-height: 1;
+          }
+          
+          .blog-icon-footer:hover {
+            background-color: rgb(76, 157, 197); /* Change the background color on hover */
+          }
+          
+          /* Add a subtle scale effect on hover */
+          .blog-icon-footer:hover i {
+            transform: scale(1.1);
+          }
+
+          .back-to-top-button{
+            position: relative;
+            bottom: 100px;
+            left: 1450px;
+            font-size: 20px;
+            padding-right: 12px;
+          }
+
+
+      
+          
 }

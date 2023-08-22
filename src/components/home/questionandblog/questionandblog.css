@@ -13,7 +13,7 @@
    }
 
    .question-location{
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 25px;
     color: rgb(20, 20, 58);
     font-weight: bold;
@@ -23,24 +23,21 @@
    .question-btn{
     background-color: rgb(41, 41, 98); /* Green */
     border: none;
-    padding: 20px 50px;
-    text-align: center;
+    padding: 20px 35px;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 10px;
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 4px;
     font-weight: bold;
     color: white;
-   }
-   .question-btn:hover{
-    background-color: rgb(76, 157, 197);
+    margin-left: 45px;
    }
 
 
    .blog-location{
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 25px;
     color: rgb(20, 20, 58);
     font-weight: bold;
@@ -51,16 +48,16 @@
    .blog-btn{
     background-color: rgb(41, 41, 98); /* Green */
   border: none;
-  padding: 20px 32px;
-  text-align: center;
+  padding: 20px 50px;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 10px;
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 4px;
   font-weight: bold;
   color: white;
+  margin-left: 45px;
 
    }
 }
@@ -92,7 +89,7 @@
       padding: 25px 20px;
       text-align: center;
       text-decoration: none;
-      display: block;
+      display: inline-block;
       width: 80%; /* Adjust width as needed */
       margin: 10px auto;
       font-size: 14px;
@@ -101,6 +98,7 @@
       border-radius: 4px;
       font-weight: bold;
       color: white;
+      margin-left: 40px;
     }
   }
 
@@ -254,8 +252,8 @@
 
    .vertical-line {
     width: 5px; /* Set width to 0 so only the border is visible */
-    height: 35%; /* Make the line span the entire height of its container */
-    border-left: 0.5px solid black; /* Set the thickness and color of the line */
+    height: 30%; /* Make the line span the entire height of its container */
+    border-left: 3px solid black; /* Set the thickness and color of the line */
     position: absolute; /* Position the line absolutely within its parent */
     left: 50%; /* Position the line halfway across the parent */
     transform: translateX(-50%);
@@ -264,7 +262,94 @@
    
   }
 
-@media screen and  (min-width: 1281px) {
+@media screen and (min-width: 1281px) and (max-width: 1442px) {
+
+    .qb{
+      overflow: hidden;
+      margin-top: 70px;
+      margin-bottom: 190px;
+    }
+    .question-col{
+        margin-left: 100px;
+        margin-top: 90px;
+        margin-bottom: 150px;
+       }
+    
+       .blog-col{
+        margin-top: 90px;
+        margin-bottom: 150px;
+        margin-left: 100px;
+       }
+    
+       .question-location{
+        font-size: 30px;
+        margin-bottom: 25px;
+        color: rgb(20, 20, 58);
+        font-weight: bold;
+        text-align: center;
+       }
+    
+       .question-btn{
+        background-color: rgb(41, 41, 98); /* Green */
+        border: none;
+        padding: 20px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 4px;
+        font-weight: bold;
+        color: white;
+        width: 50%;
+        margin-left: 130px;
+       }
+       .question-btn:hover{
+        background-color: rgb(76, 157, 197);
+       }
+    
+    
+       .blog-location{
+        font-size: 30px;
+        margin-bottom: 25px;
+        color: rgb(20, 20, 58);
+        font-weight: bold;
+        margin-left: -150px;
+       }
+    
+       
+       .blog-btn{
+        background-color: rgb(41, 41, 98); /* Green */
+      border: none;
+      padding: 20px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius: 4px;
+      font-weight: bold;
+      color: white;
+      width: 50%;
+      margin-left: -40px;
+       }
+       .blog-btn:hover{
+        background-color: rgb(76, 157, 197);
+       }
+       .vertical-line {
+        width: 5px; /* Set width to 0 so only the border is visible */
+        height: 35%; /* Make the line span the entire height of its container */
+        border-left: 3px solid black; /* Set the thickness and color of the line */
+        position: absolute; /* Position the line absolutely within its parent */
+        left: 50%; /* Position the line halfway across the parent */
+        transform: translateX(-50%);
+      }
+    
+  }
+
+@media screen and  (min-width: 1443px) {
     .qb{
       overflow: hidden;
       margin-top: 70px;
